@@ -1,0 +1,2060 @@
+{
+    "name": "World",
+    "children": [
+        {
+            "name": "Brazil",
+            "children": [
+                {
+                    "name": "2011",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 96587.069
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 98697.665
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 79.641
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 149.3833
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 46.861
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 53.869
+                        }
+                    ]
+                },
+                {
+                    "name": "2012",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 97333.272
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 99542.84
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 78.4721
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 146.7668
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 44.794
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 51.332
+                        }
+                    ]
+                },
+                {
+                    "name": "2013",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 98085.091
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 100393.208
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 77.1603
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 144.0152
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 43.288
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 49.56
+                        }
+                    ]
+                },
+                {
+                    "name": "2014",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 98839.567
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 101245.56
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 76.0618
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 141.7069
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 42.383
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 48.441
+                        }
+                    ]
+                },
+                {
+                    "name": "2015",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 99587.454
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 102088.079
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 73.8817
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 137.9598
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 41.431
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 47.318
+                        }
+                    ]
+                },
+                {
+                    "name": "2016",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 100309.738
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 102908.376
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 74.0394
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 138.2904
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 39.495
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 45.26
+                        }
+                    ]
+                },
+                {
+                    "name": "2017",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 101001.719
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 103701.727
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 71.7731
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 132.7474
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 38.839
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 44.636
+                        }
+                    ]
+                },
+                {
+                    "name": "2018",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 101654.523
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 104452.738
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 68.5863
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 128.9329
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 38.092
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 43.691
+                        }
+                    ]
+                },
+                {
+                    "name": "2019",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 102280.732
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 105174.727
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 65.9608
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 125.7001
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 36.49
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 41.917
+                        }
+                    ]
+                },
+                {
+                    "name": "2020",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 102844.473
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 105816.37
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 71.2289
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 138.5436
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 34.574
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 39.747
+                        }
+                    ]
+                },
+                {
+                    "name": "2021",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 103236.465
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 106313.829
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 87.4818
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 172.233
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 33.398
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 38.396
+                        }
+                    ]
+                },
+                {
+                    "name": "2022",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 103548.935
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 106757.48
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 73.6287
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 140.0219
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 32.52
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 37.481
+                        }
+                    ]
+                },
+                {
+                    "name": "2023",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 103913.061
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 107227.668
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 67.9146
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 127.631
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 31.406
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 36.057
+                        }
+                    ]
+                },
+                {
+                    "name": "2024",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 104295.118
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 107703.455
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 67.8434
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 127.0601
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 30.795
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 35.507
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "China",
+            "children": [
+                {
+                    "name": "2011",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 696018.306
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 664232.358
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 45.8687
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 97.8737
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 209.515
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 260.979
+                        }
+                    ]
+                },
+                {
+                    "name": "2012",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 700783.226
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 668737.638
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 44.7174
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 96.043
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 207.198
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 255.12
+                        }
+                    ]
+                },
+                {
+                    "name": "2013",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 705638.491
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 673369.549
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 43.7473
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 94.5752
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 185.395
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 230.488
+                        }
+                    ]
+                },
+                {
+                    "name": "2014",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 710181.238
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 677770.734
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 42.7009
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 92.945
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 174.526
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 216.89
+                        }
+                    ]
+                },
+                {
+                    "name": "2015",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 714291.69
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 681842.484
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 41.6178
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 91.2784
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 152.993
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 192.466
+                        }
+                    ]
+                },
+                {
+                    "name": "2016",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 718222.772
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 685829.86
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 40.5994
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 89.7282
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 146.503
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 183.255
+                        }
+                    ]
+                },
+                {
+                    "name": "2017",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 722262.972
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 690091.755
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 40.4666
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 90.127
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 136.486
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 170.302
+                        }
+                    ]
+                },
+                {
+                    "name": "2018",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 725405.723
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 693603.233
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 38.4042
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 86.2811
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 109.57
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 141.043
+                        }
+                    ]
+                },
+                {
+                    "name": "2019",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 727474.139
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 696046.218
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 37.3202
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 84.5322
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 95.477
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 124.101
+                        }
+                    ]
+                },
+                {
+                    "name": "2020",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 728451.612
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 697654.481
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 37.3719
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 85.1147
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 73.954
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 99.296
+                        }
+                    ]
+                },
+                {
+                    "name": "2021",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 728193.406
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 698243.862
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 36.5714
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 84.8541
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 60.185
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 82.068
+                        }
+                    ]
+                },
+                {
+                    "name": "2022",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 727090.906
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 698088.664
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 35.3446
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 81.9755
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 51.091
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 72.37
+                        }
+                    ]
+                },
+                {
+                    "name": "2023",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 725223.289
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 697361.644
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 35.0446
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 82.2617
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 45.791
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 70.824
+                        }
+                    ]
+                },
+                {
+                    "name": "2024",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 723023.723
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 696297.555
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 37.2251
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 84.2918
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 56.348
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 73.163
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Germany",
+            "children": [
+                {
+                    "name": "2011",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 39432.27
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 41425.604
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 28.6287
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 75.982
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.411
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.898
+                        }
+                    ]
+                },
+                {
+                    "name": "2012",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 39546.791
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 41369.599
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 27.4337
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 73.5177
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.245
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.68
+                        }
+                    ]
+                },
+                {
+                    "name": "2013",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 39699.059
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 41342.522
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 27.192
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 73.5159
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.246
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.681
+                        }
+                    ]
+                },
+                {
+                    "name": "2014",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 39924.826
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 41451.255
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 26.1492
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 70.6753
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.305
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.71
+                        }
+                    ]
+                },
+                {
+                    "name": "2015",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 40401.847
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 41675.704
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 26.821
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 71.6587
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.401
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.858
+                        }
+                    ]
+                },
+                {
+                    "name": "2016",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 40841.79
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 41918.312
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 26.3133
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 70.1432
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.753
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 3.212
+                        }
+                    ]
+                },
+                {
+                    "name": "2017",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41022.496
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42081.511
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 25.344
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 67.6371
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.54
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.982
+                        }
+                    ]
+                },
+                {
+                    "name": "2018",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41163.696
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42204.81
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 25.5287
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 67.9412
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.502
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.995
+                        }
+                    ]
+                },
+                {
+                    "name": "2019",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41261.516
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42297.67
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 24.8772
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 65.4425
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.489
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.955
+                        }
+                    ]
+                },
+                {
+                    "name": "2020",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41291.235
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42337.474
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 25.2143
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 65.974
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.376
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.783
+                        }
+                    ]
+                },
+                {
+                    "name": "2021",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41319.353
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42377.729
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 26.3342
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 68.7595
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.401
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.827
+                        }
+                    ]
+                },
+                {
+                    "name": "2022",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41511.584
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42574.644
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 26.3449
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 69.3501
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.31
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.938
+                        }
+                    ]
+                },
+                {
+                    "name": "2023",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41745.842
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42802.388
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 23.437
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 63.4174
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.144
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.563
+                        }
+                    ]
+                },
+                {
+                    "name": "2024",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 41753.038
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 42799.204
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 23.7455
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 64.0558
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 2.026
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 2.471
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "India",
+            "children": [
+                {
+                    "name": "2011",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 652190.186
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 609034.769
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 92.1635
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 183.2589
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 1157.712
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 1465.55
+                        }
+                    ]
+                },
+                {
+                    "name": "2012",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 661116.668
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 617557.834
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 89.7798
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 181.0577
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 1088.642
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 1373.273
+                        }
+                    ]
+                },
+                {
+                    "name": "2013",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 669876.676
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 625952.834
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 87.4708
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 179.0446
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 1017.494
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 1281.925
+                        }
+                    ]
+                },
+                {
+                    "name": "2014",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 678266.11
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 634011.081
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 84.9692
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 176.7614
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 930.448
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 1172.69
+                        }
+                    ]
+                },
+                {
+                    "name": "2015",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 686298.736
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 641725.761
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 82.5871
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 174.5922
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 877.6
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 1098.966
+                        }
+                    ]
+                },
+                {
+                    "name": "2016",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 694417.091
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 649527.205
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 80.1362
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 172.1963
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 832.164
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 1034.488
+                        }
+                    ]
+                },
+                {
+                    "name": "2017",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 702419.096
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 657238.304
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 77.7768
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 169.7408
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 768.099
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 955.501
+                        }
+                    ]
+                },
+                {
+                    "name": "2018",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 710050.158
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 664608.906
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 75.4459
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 167.0674
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 727.372
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 899.927
+                        }
+                    ]
+                },
+                {
+                    "name": "2019",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 717351.064
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 671679.248
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 73.1875
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 164.1912
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 677.733
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 837.527
+                        }
+                    ]
+                },
+                {
+                    "name": "2020",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 724175.468
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 678442.228
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 71.4694
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 170.8218
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 625.665
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 774.069
+                        }
+                    ]
+                },
+                {
+                    "name": "2021",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 729924.103
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 684279.793
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 92.416
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 219.6436
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 587.418
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 724.075
+                        }
+                    ]
+                },
+                {
+                    "name": "2022",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 735531.456
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 689891.756
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 66.7853
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 154.4677
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 555.885
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 682.13
+                        }
+                    ]
+                },
+                {
+                    "name": "2023",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 741883.264
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 696186.332
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 64.7958
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 151.1017
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 525.425
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 642.598
+                        }
+                    ]
+                },
+                {
+                    "name": "2024",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 748323.427
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 702612.364
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 67.1545
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 149.3457
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 524.88
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 654.575
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "United States of America",
+            "children": [
+                {
+                    "name": "2011",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 156786.614
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 157318.464
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 49.4786
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 105.5524
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 23.834
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 28.187
+                        }
+                    ]
+                },
+                {
+                    "name": "2012",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 158465.878
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 158649.476
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 48.8535
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 105.0584
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 23.588
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 27.887
+                        }
+                    ]
+                },
+                {
+                    "name": "2013",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 160131.142
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 159979.617
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 48.8561
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 105.2836
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 23.279
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 27.382
+                        }
+                    ]
+                },
+                {
+                    "name": "2014",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 161794.258
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 161321.12
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 49.4007
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 106.2551
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 23.201
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 27.036
+                        }
+                    ]
+                },
+                {
+                    "name": "2015",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 163455.402
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 162671.094
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 51.1445
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 108.0886
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 23.371
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 27.359
+                        }
+                    ]
+                },
+                {
+                    "name": "2016",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 165136.242
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 164043.184
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 54.2038
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 111.1829
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 23.084
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 27.142
+                        }
+                    ]
+                },
+                {
+                    "name": "2017",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 166798.058
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 165406.601
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 54.9768
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 111.583
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 22.198
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 26.084
+                        }
+                    ]
+                },
+                {
+                    "name": "2018",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 168358.724
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 166697.774
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 54.0234
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 110.0262
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 21.309
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 25.144
+                        }
+                    ]
+                },
+                {
+                    "name": "2019",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 169847.31
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 167942.756
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 54.1701
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 109.1709
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 20.922
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 24.61
+                        }
+                    ]
+                },
+                {
+                    "name": "2020",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 170710.103
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 168726.055
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 66.0294
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 129.0779
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 19.281
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 22.849
+                        }
+                    ]
+                },
+                {
+                    "name": "2021",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 171036.807
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 169124.634
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 75.1599
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 143.9504
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 20.358
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 24.182
+                        }
+                    ]
+                },
+                {
+                    "name": "2022",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 171672.742
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 169861.303
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 61.2181
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 125.178
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 20.226
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 23.713
+                        }
+                    ]
+                },
+                {
+                    "name": "2023",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 172588.71
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 170888.626
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 52.9832
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 107.6969
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 19.398
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 22.684
+                        }
+                    ]
+                },
+                {
+                    "name": "2024",
+                    "children": [
+                        {
+                            "name": "Male Population",
+                            "value": 173551.527
+                        },
+                        {
+                            "name": "Female Population",
+                            "value": 171875.044
+                        },
+                        {
+                            "name": "Mortality 15-50",
+                            "value": 51.3806
+                        },
+                        {
+                            "name": "Mortality 50-60",
+                            "value": 104.6819
+                        },
+                        {
+                            "name": "Infant Deaths",
+                            "value": 18.094
+                        },
+                        {
+                            "name": "Under 5 Deaths",
+                            "value": 21.642
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
