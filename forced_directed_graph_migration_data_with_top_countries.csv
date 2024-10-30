@@ -1,0 +1,109 @@
+country,total_outbound,total_inbound,top_outbound_countries,top_inbound_countries
+Afghanistan,512375.2761466503,0.0,"['Turkey', 'United States', 'Canada']",[]
+Africa,213048.0,0.0,"['United States', 'Australia']",[]
+Albania,1088437.032292305,0.0,"['Italy', 'Greece', 'United States']",[]
+Algeria,1581913.0890841484,0.0,"['France', 'Canada', 'Spain']",[]
+Angola,191630.21213498648,0.0,"['Portugal', 'France', 'Switzerland']",[]
+Argentina,658964.4611838816,0.0,"['Spain', 'United States', 'Italy']",[]
+Australia,13221528.078213692,19616672.0,"['Australia', 'United States', 'New Zealand']","['Australia', 'United Kingdom', 'China']"
+Austria,208749.96753239632,0.0,"['Switzerland', 'United States', 'Turkey']",[]
+Bangladesh,596550.4044312018,0.0,"['United States', 'Italy', 'Canada']",[]
+Belarus,288381.3629348278,0.0,"['Poland', 'United States', 'Latvia']",[]
+Belgium,395121.41655470844,0.0,"['France', 'Spain', 'United States']",[]
+Bolivia,288095.53713035583,0.0,"['Spain', 'United States', 'Italy']",[]
+Bosnia and Herzegovina,506180.0439674854,0.0,"['Slovenia', 'United States', 'Sweden']",[]
+Brazil,1428356.9897049256,0.0,"['United States', 'Portugal', 'Japan']",[]
+Bulgaria,6233893.536156654,5602067.0,"['Bulgaria', 'Turkey', 'Spain']","['Bulgaria', 'Russia', 'Ukraine']"
+Cambodia,318014.7821850863,0.0,"['United States', 'France', 'Australia']",[]
+Cameroon,250587.99723756313,0.0,"['France', 'United States', 'Canada']",[]
+Canada,22360964.919865824,30322645.0,"['Canada', 'United States', 'Australia']","['Canada', 'India', 'China']"
+Chile,301624.07217213954,0.0,"['United States', 'Spain', 'Canada']",[]
+China,6196332.004346178,0.0,"['United States', 'Canada', 'South Korea']",[]
+Colombia,34687793.81079793,34180812.0,"['Colombia', 'United States', 'Spain']","['Colombia', 'Venezuela', 'Unknown']"
+Croatia,243383.99981474876,0.0,"['Australia', 'Slovenia', 'United States']",[]
+Cuba,1561974.3084352016,0.0,"['United States', 'Spain', 'Italy']",[]
+Czech Republic,8399723.949047089,8832407.0,"['Czech Republic', 'Slovakia', 'United States']","['Czech Republic', 'Slovakia', 'Ukraine']"
+Côte d'Ivoire,227028.5701117501,0.0,"['France', 'Italy', 'United States']",[]
+Democratic Republic of the Congo,219178.91161957322,0.0,"['France', 'United States', 'Canada']",[]
+Dominican Republic,1443607.1878659353,0.0,"['United States', 'Spain', 'Italy']",[]
+Ecuador,994043.5571837425,0.0,"['United States', 'Spain', 'Italy']",[]
+Egypt,558738.8910570145,0.0,"['United States', 'Italy', 'Canada']",[]
+El Salvador,1490931.1351194382,0.0,"['United States', 'Canada', 'Spain']",[]
+Eritrea,190860.66863416883,0.0,"['United States', 'Sweden', 'Canada']",[]
+Ethiopia,392807.1339201974,0.0,"['United States', 'Canada', 'Italy']",[]
+FJI,199270.63333916664,0.0,"['Australia', 'New Zealand', 'United States']",[]
+FYUG,201319.09207891845,0.0,"['Switzerland', 'United States', 'LUX']",[]
+Finland,218762.74205088615,0.0,"['Sweden', 'United States', 'Spain']",[]
+France,49068713.699397154,55863759.88880105,"['France', 'United States', 'Spain']","['France', 'Algeria', 'Morocco']"
+Georgia,201131.87483525276,0.0,"['Greece', 'Turkey', 'United States']",[]
+Germany,2889939.6921304464,0.0,"['United States', 'Switzerland', 'Turkey']",[]
+Ghana,306208.5579721726,0.0,"['United States', 'Italy', 'Canada']",[]
+Greece,8357585.674222469,9065549.0,"['Greece', 'United States', 'Australia']","['Greece', 'Albania', 'Germany']"
+Guatemala,1061785.095653057,0.0,"['United States', 'Mexico', 'Canada']",[]
+Guyana,373074.9623168707,0.0,"['United States', 'Canada', 'France']",[]
+Haiti,895478.6689219957,0.0,"['United States', 'Canada', 'France']",[]
+Honduras,809023.2658243179,0.0,"['United States', 'Spain', 'Mexico']",[]
+Hungary,7921589.649317563,8210402.0,"['Hungary', 'United States', 'Canada']","['Hungary', 'Romania', 'Ukraine']"
+India,4835292.5100739,0.0,"['United States', 'Canada', 'Australia']",[]
+Indonesia,290155.40497875336,0.0,"['United States', 'Australia', 'Japan']",[]
+Iran,1004606.432859204,0.0,"['United States', 'Canada', 'Turkey']",[]
+Iraq,862622.0109412697,0.0,"['Turkey', 'United States', 'Sweden']",[]
+Ireland,291227.8727941513,0.0,"['United States', 'Australia', 'Canada']",[]
+Israel,219152.33612572053,0.0,"['United States', 'Canada', 'Australia']",[]
+Italy,47167320.39538515,51540338.0,"['Italy', 'United States', 'France']","['Italy', 'Romania', 'Albania']"
+Jamaica,947005.5912700865,0.0,"['United States', 'Canada', 'Australia']",[]
+Japan,106655581.22534668,108258569.0,"['Japan', 'United States', 'Australia']","['Japan', 'China', 'North Korea']"
+Kenya,222572.2475681305,0.0,"['United States', 'Canada', 'Australia']",[]
+Laos,244735.13378691673,0.0,"['United States', 'France', 'Canada']",[]
+Lebanon,450608.1207718849,0.0,"['United States', 'Canada', 'Australia']",[]
+Lithuania,2438572.506004572,2393600.0,"['Lithuania', 'Norway', 'United States']","['Lithuania', 'Russia', 'Belarus']"
+Malaysia,284836.53109657665,0.0,"['Australia', 'United States', 'Canada']",[]
+Mexico,104237064.21432492,93985354.0,"['Mexico', 'United States', 'Canada']","['Mexico', 'United States', 'Other']"
+Moldova,384847.13974477723,0.0,"['Italy', 'United States', 'France']",[]
+Morocco,2560558.2598635927,0.0,"['France', 'Spain', 'Italy']",[]
+Myanmar,204654.32080078608,0.0,"['United States', 'Australia', 'Canada']",[]
+Nepal,422675.0774965286,0.0,"['United States', 'Australia', 'Japan']",[]
+Netherlands,459322.4830150604,0.0,"['United States', 'Canada', 'Australia']",[]
+New Zealand,3111815.554714918,3767241.0,"['New Zealand', 'Australia', 'United States']","['New Zealand', 'United Kingdom', 'China']"
+Nicaragua,332738.9651489258,0.0,"['United States', 'Spain', 'Canada']",[]
+Nigeria,672655.1812558174,0.0,"['United States', 'Italy', 'Canada']",[]
+North Korea,45308711.51157045,0.0,"['South Korea', 'United States', 'Japan']",[]
+North Macedonia,311679.4393181801,0.0,"['Switzerland', 'Italy', 'Australia']",[]
+Other,18815856.6019876,0.0,"['Denmark', 'Norway', 'United States']",[]
+Pakistan,1065972.3514986038,0.0,"['United States', 'Canada', 'Italy']",[]
+Peru,929761.0223803534,0.0,"['United States', 'Spain', 'Italy']",[]
+Philippines,3666841.833961487,0.0,"['United States', 'Canada', 'Australia']",[]
+Poland,31660264.259815216,31262060.0,"['Poland', 'United States', 'Canada']","['Poland', 'Ukraine', 'Belarus']"
+Portugal,9321531.115165593,9011878.0,"['Portugal', 'France', 'Switzerland']","['Portugal', 'Brazil', 'Other']"
+Puerto Rico,1725461.213679552,0.0,"['United States', 'Canada', 'Colombia']",[]
+Romania,2202905.4541234723,0.0,"['Italy', 'Spain', 'Hungary']",[]
+Russia,1325705.960281849,0.0,"['United States', 'Estonia', 'Latvia']",[]
+Senegal,391214.84890527505,0.0,"['France', 'Italy', 'Spain']",[]
+Serbia,399255.4550140521,0.0,"['France', 'Switzerland', 'United States']",[]
+Slovakia,4764956.310368702,4581860.0,"['Slovakia', 'Czech Republic', 'Hungary']","['Slovakia', 'Czech Republic', 'Unknown']"
+Somalia,292036.8839020729,0.0,"['United States', 'Sweden', 'Canada']",[]
+South Africa,461831.16990064783,0.0,"['Australia', 'United States', 'New Zealand']",[]
+Spain,34424539.39337349,40687137.0,"['Spain', 'France', 'United States']","['Spain', 'Morocco', 'Romania']"
+Sri Lanka,526804.3738761358,0.0,"['Canada', 'Australia', 'Italy']",[]
+Sweden,6853120.402250053,8539410.0,"['Sweden', 'United States', 'Norway']","['Sweden', 'Other', 'Syria']"
+Switzerland,5241696.635566913,7243554.307257448,"['Switzerland', 'Italy', 'France']","['Switzerland', 'Germany', 'Italy']"
+Syria,729149.713936244,0.0,"['Turkey', 'Sweden', 'United States']",[]
+Taiwan,478602.7800204754,0.0,"['United States', 'Canada', 'New Zealand']",[]
+Thailand,664281.501711607,0.0,"['United States', 'South Korea', 'Australia']",[]
+Trinidad and Tobago,303413.6583478466,0.0,"['United States', 'Canada', 'Australia']",[]
+Tunisia,595242.7656727486,0.0,"['France', 'Italy', 'Canada']",[]
+Turkey,62636553.814800024,65701874.0,"['Turkey', 'France', 'United States']","['Turkey', 'Unknown', 'Other']"
+Ukraine,1670920.8199334154,0.0,"['Poland', 'United States', 'Italy']",[]
+United Kingdom,3363460.885774944,0.0,"['Australia', 'United States', 'Canada']",[]
+United States,221744976.46905255,268390685.0,"['United States', 'Mexico', 'Canada']","['United States', 'Mexico', 'India']"
+Unknown,2277462.1359558105,0.0,"['Turkey', 'Colombia', 'South Korea']",[]
+Uzbekistan,265749.1203017235,0.0,"['Turkey', 'United States', 'South Korea']",[]
+Venezuela,1581056.4679083494,0.0,"['Colombia', 'United States', 'Spain']",[]
+Vietnam,2525649.3953926563,0.0,"['United States', 'Japan', 'Australia']",[]
+Denmark,0.0,4865995.0,[],"['Other', 'Poland', 'Germany']"
+Estonia,0.0,1114057.0,[],"['Other', 'Russia', 'Ukraine']"
+LUX,0.0,541367.0,[],"['Other', 'Portugal', 'France']"
+Latvia,0.0,1590245.0,[],"['Other', 'Russia', 'Belarus']"
+Norway,0.0,4469784.0,[],"['Other', 'Poland', 'Sweden']"
+Slovenia,0.0,1791178.0,[],"['Other', 'Bosnia and Herzegovina', 'Croatia']"
+South Korea,0.0,45151490.0,[],"['North Korea', 'China', 'Unknown']"
