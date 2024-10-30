@@ -1,0 +1,1512 @@
+[
+  {
+    "origin_country": "Afghanistan",
+    "destination_country": "Turkey",
+    "number": 512375.2761466503
+  },
+  {
+    "origin_country": "Afghanistan",
+    "destination_country": "United States",
+    "number": 512375.2761466503
+  },
+  {
+    "origin_country": "Afghanistan",
+    "destination_country": "Canada",
+    "number": 512375.2761466503
+  },
+  {
+    "origin_country": "Africa",
+    "destination_country": "United States",
+    "number": 213048.0
+  },
+  {
+    "origin_country": "Africa",
+    "destination_country": "Australia",
+    "number": 213048.0
+  },
+  {
+    "origin_country": "Albania",
+    "destination_country": "Italy",
+    "number": 1088437.032292305
+  },
+  {
+    "origin_country": "Albania",
+    "destination_country": "Greece",
+    "number": 1088437.032292305
+  },
+  {
+    "origin_country": "Albania",
+    "destination_country": "United States",
+    "number": 1088437.032292305
+  },
+  {
+    "origin_country": "Algeria",
+    "destination_country": "France",
+    "number": 1581913.0890841484
+  },
+  {
+    "origin_country": "Algeria",
+    "destination_country": "Canada",
+    "number": 1581913.0890841484
+  },
+  {
+    "origin_country": "Algeria",
+    "destination_country": "Spain",
+    "number": 1581913.0890841484
+  },
+  {
+    "origin_country": "Angola",
+    "destination_country": "Portugal",
+    "number": 191630.21213498648
+  },
+  {
+    "origin_country": "Angola",
+    "destination_country": "France",
+    "number": 191630.21213498648
+  },
+  {
+    "origin_country": "Angola",
+    "destination_country": "Switzerland",
+    "number": 191630.21213498648
+  },
+  {
+    "origin_country": "Argentina",
+    "destination_country": "Spain",
+    "number": 658964.4611838816
+  },
+  {
+    "origin_country": "Argentina",
+    "destination_country": "United States",
+    "number": 658964.4611838816
+  },
+  {
+    "origin_country": "Argentina",
+    "destination_country": "Italy",
+    "number": 658964.4611838816
+  },
+  {
+    "origin_country": "Australia",
+    "destination_country": "Australia",
+    "number": 13221528.078213692
+  },
+  {
+    "origin_country": "Australia",
+    "destination_country": "United States",
+    "number": 13221528.078213692
+  },
+  {
+    "origin_country": "Australia",
+    "destination_country": "New Zealand",
+    "number": 13221528.078213692
+  },
+  {
+    "origin_country": "Austria",
+    "destination_country": "Switzerland",
+    "number": 208749.96753239632
+  },
+  {
+    "origin_country": "Austria",
+    "destination_country": "United States",
+    "number": 208749.96753239632
+  },
+  {
+    "origin_country": "Austria",
+    "destination_country": "Turkey",
+    "number": 208749.96753239632
+  },
+  {
+    "origin_country": "Bangladesh",
+    "destination_country": "United States",
+    "number": 596550.4044312018
+  },
+  {
+    "origin_country": "Bangladesh",
+    "destination_country": "Italy",
+    "number": 596550.4044312018
+  },
+  {
+    "origin_country": "Bangladesh",
+    "destination_country": "Canada",
+    "number": 596550.4044312018
+  },
+  {
+    "origin_country": "Belarus",
+    "destination_country": "Poland",
+    "number": 288381.3629348278
+  },
+  {
+    "origin_country": "Belarus",
+    "destination_country": "United States",
+    "number": 288381.3629348278
+  },
+  {
+    "origin_country": "Belarus",
+    "destination_country": "Latvia",
+    "number": 288381.3629348278
+  },
+  {
+    "origin_country": "Belgium",
+    "destination_country": "France",
+    "number": 395121.4165547085
+  },
+  {
+    "origin_country": "Belgium",
+    "destination_country": "Spain",
+    "number": 395121.4165547085
+  },
+  {
+    "origin_country": "Belgium",
+    "destination_country": "United States",
+    "number": 395121.4165547085
+  },
+  {
+    "origin_country": "Bolivia",
+    "destination_country": "Spain",
+    "number": 288095.53713035583
+  },
+  {
+    "origin_country": "Bolivia",
+    "destination_country": "United States",
+    "number": 288095.53713035583
+  },
+  {
+    "origin_country": "Bolivia",
+    "destination_country": "Italy",
+    "number": 288095.53713035583
+  },
+  {
+    "origin_country": "Bosnia and Herzegovina",
+    "destination_country": "Slovenia",
+    "number": 506180.0439674854
+  },
+  {
+    "origin_country": "Bosnia and Herzegovina",
+    "destination_country": "United States",
+    "number": 506180.0439674854
+  },
+  {
+    "origin_country": "Bosnia and Herzegovina",
+    "destination_country": "Sweden",
+    "number": 506180.0439674854
+  },
+  {
+    "origin_country": "Brazil",
+    "destination_country": "United States",
+    "number": 1428356.9897049256
+  },
+  {
+    "origin_country": "Brazil",
+    "destination_country": "Portugal",
+    "number": 1428356.9897049256
+  },
+  {
+    "origin_country": "Brazil",
+    "destination_country": "Japan",
+    "number": 1428356.9897049256
+  },
+  {
+    "origin_country": "Bulgaria",
+    "destination_country": "Bulgaria",
+    "number": 6233893.536156654
+  },
+  {
+    "origin_country": "Bulgaria",
+    "destination_country": "Turkey",
+    "number": 6233893.536156654
+  },
+  {
+    "origin_country": "Bulgaria",
+    "destination_country": "Spain",
+    "number": 6233893.536156654
+  },
+  {
+    "origin_country": "Cambodia",
+    "destination_country": "United States",
+    "number": 318014.7821850863
+  },
+  {
+    "origin_country": "Cambodia",
+    "destination_country": "France",
+    "number": 318014.7821850863
+  },
+  {
+    "origin_country": "Cambodia",
+    "destination_country": "Australia",
+    "number": 318014.7821850863
+  },
+  {
+    "origin_country": "Cameroon",
+    "destination_country": "France",
+    "number": 250587.99723756316
+  },
+  {
+    "origin_country": "Cameroon",
+    "destination_country": "United States",
+    "number": 250587.99723756316
+  },
+  {
+    "origin_country": "Cameroon",
+    "destination_country": "Canada",
+    "number": 250587.99723756316
+  },
+  {
+    "origin_country": "Canada",
+    "destination_country": "Canada",
+    "number": 22360964.919865824
+  },
+  {
+    "origin_country": "Canada",
+    "destination_country": "United States",
+    "number": 22360964.919865824
+  },
+  {
+    "origin_country": "Canada",
+    "destination_country": "Australia",
+    "number": 22360964.919865824
+  },
+  {
+    "origin_country": "Chile",
+    "destination_country": "United States",
+    "number": 301624.07217213954
+  },
+  {
+    "origin_country": "Chile",
+    "destination_country": "Spain",
+    "number": 301624.07217213954
+  },
+  {
+    "origin_country": "Chile",
+    "destination_country": "Canada",
+    "number": 301624.07217213954
+  },
+  {
+    "origin_country": "China",
+    "destination_country": "United States",
+    "number": 6196332.004346178
+  },
+  {
+    "origin_country": "China",
+    "destination_country": "Canada",
+    "number": 6196332.004346178
+  },
+  {
+    "origin_country": "China",
+    "destination_country": "South Korea",
+    "number": 6196332.004346178
+  },
+  {
+    "origin_country": "Colombia",
+    "destination_country": "Colombia",
+    "number": 34687793.81079793
+  },
+  {
+    "origin_country": "Colombia",
+    "destination_country": "United States",
+    "number": 34687793.81079793
+  },
+  {
+    "origin_country": "Colombia",
+    "destination_country": "Spain",
+    "number": 34687793.81079793
+  },
+  {
+    "origin_country": "Croatia",
+    "destination_country": "Australia",
+    "number": 243383.9998147488
+  },
+  {
+    "origin_country": "Croatia",
+    "destination_country": "Slovenia",
+    "number": 243383.9998147488
+  },
+  {
+    "origin_country": "Croatia",
+    "destination_country": "United States",
+    "number": 243383.9998147488
+  },
+  {
+    "origin_country": "Cuba",
+    "destination_country": "United States",
+    "number": 1561974.3084352016
+  },
+  {
+    "origin_country": "Cuba",
+    "destination_country": "Spain",
+    "number": 1561974.3084352016
+  },
+  {
+    "origin_country": "Cuba",
+    "destination_country": "Italy",
+    "number": 1561974.3084352016
+  },
+  {
+    "origin_country": "Czech Republic",
+    "destination_country": "Czech Republic",
+    "number": 8399723.949047089
+  },
+  {
+    "origin_country": "Czech Republic",
+    "destination_country": "Slovakia",
+    "number": 8399723.949047089
+  },
+  {
+    "origin_country": "Czech Republic",
+    "destination_country": "United States",
+    "number": 8399723.949047089
+  },
+  {
+    "origin_country": "C\u00f4te d'Ivoire",
+    "destination_country": "France",
+    "number": 227028.5701117501
+  },
+  {
+    "origin_country": "C\u00f4te d'Ivoire",
+    "destination_country": "Italy",
+    "number": 227028.5701117501
+  },
+  {
+    "origin_country": "C\u00f4te d'Ivoire",
+    "destination_country": "United States",
+    "number": 227028.5701117501
+  },
+  {
+    "origin_country": "Democratic Republic of the Congo",
+    "destination_country": "France",
+    "number": 219178.9116195732
+  },
+  {
+    "origin_country": "Democratic Republic of the Congo",
+    "destination_country": "United States",
+    "number": 219178.9116195732
+  },
+  {
+    "origin_country": "Democratic Republic of the Congo",
+    "destination_country": "Canada",
+    "number": 219178.9116195732
+  },
+  {
+    "origin_country": "Dominican Republic",
+    "destination_country": "United States",
+    "number": 1443607.1878659353
+  },
+  {
+    "origin_country": "Dominican Republic",
+    "destination_country": "Spain",
+    "number": 1443607.1878659353
+  },
+  {
+    "origin_country": "Dominican Republic",
+    "destination_country": "Italy",
+    "number": 1443607.1878659353
+  },
+  {
+    "origin_country": "Ecuador",
+    "destination_country": "United States",
+    "number": 994043.5571837424
+  },
+  {
+    "origin_country": "Ecuador",
+    "destination_country": "Spain",
+    "number": 994043.5571837424
+  },
+  {
+    "origin_country": "Ecuador",
+    "destination_country": "Italy",
+    "number": 994043.5571837424
+  },
+  {
+    "origin_country": "Egypt",
+    "destination_country": "United States",
+    "number": 558738.8910570145
+  },
+  {
+    "origin_country": "Egypt",
+    "destination_country": "Italy",
+    "number": 558738.8910570145
+  },
+  {
+    "origin_country": "Egypt",
+    "destination_country": "Canada",
+    "number": 558738.8910570145
+  },
+  {
+    "origin_country": "El Salvador",
+    "destination_country": "United States",
+    "number": 1490931.1351194382
+  },
+  {
+    "origin_country": "El Salvador",
+    "destination_country": "Canada",
+    "number": 1490931.1351194382
+  },
+  {
+    "origin_country": "El Salvador",
+    "destination_country": "Spain",
+    "number": 1490931.1351194382
+  },
+  {
+    "origin_country": "Eritrea",
+    "destination_country": "United States",
+    "number": 190860.66863416883
+  },
+  {
+    "origin_country": "Eritrea",
+    "destination_country": "Sweden",
+    "number": 190860.66863416883
+  },
+  {
+    "origin_country": "Eritrea",
+    "destination_country": "Canada",
+    "number": 190860.66863416883
+  },
+  {
+    "origin_country": "Ethiopia",
+    "destination_country": "United States",
+    "number": 392807.1339201974
+  },
+  {
+    "origin_country": "Ethiopia",
+    "destination_country": "Canada",
+    "number": 392807.1339201974
+  },
+  {
+    "origin_country": "Ethiopia",
+    "destination_country": "Italy",
+    "number": 392807.1339201974
+  },
+  {
+    "origin_country": "FJI",
+    "destination_country": "Australia",
+    "number": 199270.63333916664
+  },
+  {
+    "origin_country": "FJI",
+    "destination_country": "New Zealand",
+    "number": 199270.63333916664
+  },
+  {
+    "origin_country": "FJI",
+    "destination_country": "United States",
+    "number": 199270.63333916664
+  },
+  {
+    "origin_country": "FYUG",
+    "destination_country": "Switzerland",
+    "number": 201319.09207891845
+  },
+  {
+    "origin_country": "FYUG",
+    "destination_country": "United States",
+    "number": 201319.09207891845
+  },
+  {
+    "origin_country": "FYUG",
+    "destination_country": "LUX",
+    "number": 201319.09207891845
+  },
+  {
+    "origin_country": "Finland",
+    "destination_country": "Sweden",
+    "number": 218762.74205088613
+  },
+  {
+    "origin_country": "Finland",
+    "destination_country": "United States",
+    "number": 218762.74205088613
+  },
+  {
+    "origin_country": "Finland",
+    "destination_country": "Spain",
+    "number": 218762.74205088613
+  },
+  {
+    "origin_country": "France",
+    "destination_country": "France",
+    "number": 49068713.699397154
+  },
+  {
+    "origin_country": "France",
+    "destination_country": "United States",
+    "number": 49068713.699397154
+  },
+  {
+    "origin_country": "France",
+    "destination_country": "Spain",
+    "number": 49068713.699397154
+  },
+  {
+    "origin_country": "Georgia",
+    "destination_country": "Greece",
+    "number": 201131.8748352528
+  },
+  {
+    "origin_country": "Georgia",
+    "destination_country": "Turkey",
+    "number": 201131.8748352528
+  },
+  {
+    "origin_country": "Georgia",
+    "destination_country": "United States",
+    "number": 201131.8748352528
+  },
+  {
+    "origin_country": "Germany",
+    "destination_country": "United States",
+    "number": 2889939.6921304464
+  },
+  {
+    "origin_country": "Germany",
+    "destination_country": "Switzerland",
+    "number": 2889939.6921304464
+  },
+  {
+    "origin_country": "Germany",
+    "destination_country": "Turkey",
+    "number": 2889939.6921304464
+  },
+  {
+    "origin_country": "Ghana",
+    "destination_country": "United States",
+    "number": 306208.5579721726
+  },
+  {
+    "origin_country": "Ghana",
+    "destination_country": "Italy",
+    "number": 306208.5579721726
+  },
+  {
+    "origin_country": "Ghana",
+    "destination_country": "Canada",
+    "number": 306208.5579721726
+  },
+  {
+    "origin_country": "Greece",
+    "destination_country": "Greece",
+    "number": 8357585.674222469
+  },
+  {
+    "origin_country": "Greece",
+    "destination_country": "United States",
+    "number": 8357585.674222469
+  },
+  {
+    "origin_country": "Greece",
+    "destination_country": "Australia",
+    "number": 8357585.674222469
+  },
+  {
+    "origin_country": "Guatemala",
+    "destination_country": "United States",
+    "number": 1061785.095653057
+  },
+  {
+    "origin_country": "Guatemala",
+    "destination_country": "Mexico",
+    "number": 1061785.095653057
+  },
+  {
+    "origin_country": "Guatemala",
+    "destination_country": "Canada",
+    "number": 1061785.095653057
+  },
+  {
+    "origin_country": "Guyana",
+    "destination_country": "United States",
+    "number": 373074.9623168707
+  },
+  {
+    "origin_country": "Guyana",
+    "destination_country": "Canada",
+    "number": 373074.9623168707
+  },
+  {
+    "origin_country": "Guyana",
+    "destination_country": "France",
+    "number": 373074.9623168707
+  },
+  {
+    "origin_country": "Haiti",
+    "destination_country": "United States",
+    "number": 895478.6689219957
+  },
+  {
+    "origin_country": "Haiti",
+    "destination_country": "Canada",
+    "number": 895478.6689219957
+  },
+  {
+    "origin_country": "Haiti",
+    "destination_country": "France",
+    "number": 895478.6689219957
+  },
+  {
+    "origin_country": "Honduras",
+    "destination_country": "United States",
+    "number": 809023.2658243179
+  },
+  {
+    "origin_country": "Honduras",
+    "destination_country": "Spain",
+    "number": 809023.2658243179
+  },
+  {
+    "origin_country": "Honduras",
+    "destination_country": "Mexico",
+    "number": 809023.2658243179
+  },
+  {
+    "origin_country": "Hungary",
+    "destination_country": "Hungary",
+    "number": 7921589.649317563
+  },
+  {
+    "origin_country": "Hungary",
+    "destination_country": "United States",
+    "number": 7921589.649317563
+  },
+  {
+    "origin_country": "Hungary",
+    "destination_country": "Canada",
+    "number": 7921589.649317563
+  },
+  {
+    "origin_country": "India",
+    "destination_country": "United States",
+    "number": 4835292.5100739
+  },
+  {
+    "origin_country": "India",
+    "destination_country": "Canada",
+    "number": 4835292.5100739
+  },
+  {
+    "origin_country": "India",
+    "destination_country": "Australia",
+    "number": 4835292.5100739
+  },
+  {
+    "origin_country": "Indonesia",
+    "destination_country": "United States",
+    "number": 290155.40497875336
+  },
+  {
+    "origin_country": "Indonesia",
+    "destination_country": "Australia",
+    "number": 290155.40497875336
+  },
+  {
+    "origin_country": "Indonesia",
+    "destination_country": "Japan",
+    "number": 290155.40497875336
+  },
+  {
+    "origin_country": "Iran",
+    "destination_country": "United States",
+    "number": 1004606.432859204
+  },
+  {
+    "origin_country": "Iran",
+    "destination_country": "Canada",
+    "number": 1004606.432859204
+  },
+  {
+    "origin_country": "Iran",
+    "destination_country": "Turkey",
+    "number": 1004606.432859204
+  },
+  {
+    "origin_country": "Iraq",
+    "destination_country": "Turkey",
+    "number": 862622.0109412697
+  },
+  {
+    "origin_country": "Iraq",
+    "destination_country": "United States",
+    "number": 862622.0109412697
+  },
+  {
+    "origin_country": "Iraq",
+    "destination_country": "Sweden",
+    "number": 862622.0109412697
+  },
+  {
+    "origin_country": "Ireland",
+    "destination_country": "United States",
+    "number": 291227.8727941513
+  },
+  {
+    "origin_country": "Ireland",
+    "destination_country": "Australia",
+    "number": 291227.8727941513
+  },
+  {
+    "origin_country": "Ireland",
+    "destination_country": "Canada",
+    "number": 291227.8727941513
+  },
+  {
+    "origin_country": "Israel",
+    "destination_country": "United States",
+    "number": 219152.33612572053
+  },
+  {
+    "origin_country": "Israel",
+    "destination_country": "Canada",
+    "number": 219152.33612572053
+  },
+  {
+    "origin_country": "Israel",
+    "destination_country": "Australia",
+    "number": 219152.33612572053
+  },
+  {
+    "origin_country": "Italy",
+    "destination_country": "Italy",
+    "number": 47167320.39538515
+  },
+  {
+    "origin_country": "Italy",
+    "destination_country": "United States",
+    "number": 47167320.39538515
+  },
+  {
+    "origin_country": "Italy",
+    "destination_country": "France",
+    "number": 47167320.39538515
+  },
+  {
+    "origin_country": "Jamaica",
+    "destination_country": "United States",
+    "number": 947005.5912700864
+  },
+  {
+    "origin_country": "Jamaica",
+    "destination_country": "Canada",
+    "number": 947005.5912700864
+  },
+  {
+    "origin_country": "Jamaica",
+    "destination_country": "Australia",
+    "number": 947005.5912700864
+  },
+  {
+    "origin_country": "Japan",
+    "destination_country": "Japan",
+    "number": 106655581.22534668
+  },
+  {
+    "origin_country": "Japan",
+    "destination_country": "United States",
+    "number": 106655581.22534668
+  },
+  {
+    "origin_country": "Japan",
+    "destination_country": "Australia",
+    "number": 106655581.22534668
+  },
+  {
+    "origin_country": "Kenya",
+    "destination_country": "United States",
+    "number": 222572.2475681305
+  },
+  {
+    "origin_country": "Kenya",
+    "destination_country": "Canada",
+    "number": 222572.2475681305
+  },
+  {
+    "origin_country": "Kenya",
+    "destination_country": "Australia",
+    "number": 222572.2475681305
+  },
+  {
+    "origin_country": "Laos",
+    "destination_country": "United States",
+    "number": 244735.13378691676
+  },
+  {
+    "origin_country": "Laos",
+    "destination_country": "France",
+    "number": 244735.13378691676
+  },
+  {
+    "origin_country": "Laos",
+    "destination_country": "Canada",
+    "number": 244735.13378691676
+  },
+  {
+    "origin_country": "Lebanon",
+    "destination_country": "United States",
+    "number": 450608.1207718849
+  },
+  {
+    "origin_country": "Lebanon",
+    "destination_country": "Canada",
+    "number": 450608.1207718849
+  },
+  {
+    "origin_country": "Lebanon",
+    "destination_country": "Australia",
+    "number": 450608.1207718849
+  },
+  {
+    "origin_country": "Lithuania",
+    "destination_country": "Lithuania",
+    "number": 2438572.506004572
+  },
+  {
+    "origin_country": "Lithuania",
+    "destination_country": "Norway",
+    "number": 2438572.506004572
+  },
+  {
+    "origin_country": "Lithuania",
+    "destination_country": "United States",
+    "number": 2438572.506004572
+  },
+  {
+    "origin_country": "Malaysia",
+    "destination_country": "Australia",
+    "number": 284836.53109657665
+  },
+  {
+    "origin_country": "Malaysia",
+    "destination_country": "United States",
+    "number": 284836.53109657665
+  },
+  {
+    "origin_country": "Malaysia",
+    "destination_country": "Canada",
+    "number": 284836.53109657665
+  },
+  {
+    "origin_country": "Mexico",
+    "destination_country": "Mexico",
+    "number": 104237064.21432492
+  },
+  {
+    "origin_country": "Mexico",
+    "destination_country": "United States",
+    "number": 104237064.21432492
+  },
+  {
+    "origin_country": "Mexico",
+    "destination_country": "Canada",
+    "number": 104237064.21432492
+  },
+  {
+    "origin_country": "Moldova",
+    "destination_country": "Italy",
+    "number": 384847.1397447772
+  },
+  {
+    "origin_country": "Moldova",
+    "destination_country": "United States",
+    "number": 384847.1397447772
+  },
+  {
+    "origin_country": "Moldova",
+    "destination_country": "France",
+    "number": 384847.1397447772
+  },
+  {
+    "origin_country": "Morocco",
+    "destination_country": "France",
+    "number": 2560558.2598635927
+  },
+  {
+    "origin_country": "Morocco",
+    "destination_country": "Spain",
+    "number": 2560558.2598635927
+  },
+  {
+    "origin_country": "Morocco",
+    "destination_country": "Italy",
+    "number": 2560558.2598635927
+  },
+  {
+    "origin_country": "Myanmar",
+    "destination_country": "United States",
+    "number": 204654.32080078608
+  },
+  {
+    "origin_country": "Myanmar",
+    "destination_country": "Australia",
+    "number": 204654.32080078608
+  },
+  {
+    "origin_country": "Myanmar",
+    "destination_country": "Canada",
+    "number": 204654.32080078608
+  },
+  {
+    "origin_country": "Nepal",
+    "destination_country": "United States",
+    "number": 422675.0774965286
+  },
+  {
+    "origin_country": "Nepal",
+    "destination_country": "Australia",
+    "number": 422675.0774965286
+  },
+  {
+    "origin_country": "Nepal",
+    "destination_country": "Japan",
+    "number": 422675.0774965286
+  },
+  {
+    "origin_country": "Netherlands",
+    "destination_country": "United States",
+    "number": 459322.4830150604
+  },
+  {
+    "origin_country": "Netherlands",
+    "destination_country": "Canada",
+    "number": 459322.4830150604
+  },
+  {
+    "origin_country": "Netherlands",
+    "destination_country": "Australia",
+    "number": 459322.4830150604
+  },
+  {
+    "origin_country": "New Zealand",
+    "destination_country": "New Zealand",
+    "number": 3111815.554714918
+  },
+  {
+    "origin_country": "New Zealand",
+    "destination_country": "Australia",
+    "number": 3111815.554714918
+  },
+  {
+    "origin_country": "New Zealand",
+    "destination_country": "United States",
+    "number": 3111815.554714918
+  },
+  {
+    "origin_country": "Nicaragua",
+    "destination_country": "United States",
+    "number": 332738.9651489258
+  },
+  {
+    "origin_country": "Nicaragua",
+    "destination_country": "Spain",
+    "number": 332738.9651489258
+  },
+  {
+    "origin_country": "Nicaragua",
+    "destination_country": "Canada",
+    "number": 332738.9651489258
+  },
+  {
+    "origin_country": "Nigeria",
+    "destination_country": "United States",
+    "number": 672655.1812558174
+  },
+  {
+    "origin_country": "Nigeria",
+    "destination_country": "Italy",
+    "number": 672655.1812558174
+  },
+  {
+    "origin_country": "Nigeria",
+    "destination_country": "Canada",
+    "number": 672655.1812558174
+  },
+  {
+    "origin_country": "North Korea",
+    "destination_country": "South Korea",
+    "number": 45308711.51157045
+  },
+  {
+    "origin_country": "North Korea",
+    "destination_country": "United States",
+    "number": 45308711.51157045
+  },
+  {
+    "origin_country": "North Korea",
+    "destination_country": "Japan",
+    "number": 45308711.51157045
+  },
+  {
+    "origin_country": "North Macedonia",
+    "destination_country": "Switzerland",
+    "number": 311679.4393181801
+  },
+  {
+    "origin_country": "North Macedonia",
+    "destination_country": "Italy",
+    "number": 311679.4393181801
+  },
+  {
+    "origin_country": "North Macedonia",
+    "destination_country": "Australia",
+    "number": 311679.4393181801
+  },
+  {
+    "origin_country": "Other",
+    "destination_country": "Denmark",
+    "number": 18815856.6019876
+  },
+  {
+    "origin_country": "Other",
+    "destination_country": "Norway",
+    "number": 18815856.6019876
+  },
+  {
+    "origin_country": "Other",
+    "destination_country": "United States",
+    "number": 18815856.6019876
+  },
+  {
+    "origin_country": "Pakistan",
+    "destination_country": "United States",
+    "number": 1065972.3514986038
+  },
+  {
+    "origin_country": "Pakistan",
+    "destination_country": "Canada",
+    "number": 1065972.3514986038
+  },
+  {
+    "origin_country": "Pakistan",
+    "destination_country": "Italy",
+    "number": 1065972.3514986038
+  },
+  {
+    "origin_country": "Peru",
+    "destination_country": "United States",
+    "number": 929761.0223803534
+  },
+  {
+    "origin_country": "Peru",
+    "destination_country": "Spain",
+    "number": 929761.0223803534
+  },
+  {
+    "origin_country": "Peru",
+    "destination_country": "Italy",
+    "number": 929761.0223803534
+  },
+  {
+    "origin_country": "Philippines",
+    "destination_country": "United States",
+    "number": 3666841.833961487
+  },
+  {
+    "origin_country": "Philippines",
+    "destination_country": "Canada",
+    "number": 3666841.833961487
+  },
+  {
+    "origin_country": "Philippines",
+    "destination_country": "Australia",
+    "number": 3666841.833961487
+  },
+  {
+    "origin_country": "Poland",
+    "destination_country": "Poland",
+    "number": 31660264.259815216
+  },
+  {
+    "origin_country": "Poland",
+    "destination_country": "United States",
+    "number": 31660264.259815216
+  },
+  {
+    "origin_country": "Poland",
+    "destination_country": "Canada",
+    "number": 31660264.259815216
+  },
+  {
+    "origin_country": "Portugal",
+    "destination_country": "Portugal",
+    "number": 9321531.115165591
+  },
+  {
+    "origin_country": "Portugal",
+    "destination_country": "France",
+    "number": 9321531.115165591
+  },
+  {
+    "origin_country": "Portugal",
+    "destination_country": "Switzerland",
+    "number": 9321531.115165591
+  },
+  {
+    "origin_country": "Puerto Rico",
+    "destination_country": "United States",
+    "number": 1725461.213679552
+  },
+  {
+    "origin_country": "Puerto Rico",
+    "destination_country": "Canada",
+    "number": 1725461.213679552
+  },
+  {
+    "origin_country": "Puerto Rico",
+    "destination_country": "Colombia",
+    "number": 1725461.213679552
+  },
+  {
+    "origin_country": "Romania",
+    "destination_country": "Italy",
+    "number": 2202905.4541234723
+  },
+  {
+    "origin_country": "Romania",
+    "destination_country": "Spain",
+    "number": 2202905.4541234723
+  },
+  {
+    "origin_country": "Romania",
+    "destination_country": "Hungary",
+    "number": 2202905.4541234723
+  },
+  {
+    "origin_country": "Russia",
+    "destination_country": "United States",
+    "number": 1325705.960281849
+  },
+  {
+    "origin_country": "Russia",
+    "destination_country": "Estonia",
+    "number": 1325705.960281849
+  },
+  {
+    "origin_country": "Russia",
+    "destination_country": "Latvia",
+    "number": 1325705.960281849
+  },
+  {
+    "origin_country": "Senegal",
+    "destination_country": "France",
+    "number": 391214.8489052751
+  },
+  {
+    "origin_country": "Senegal",
+    "destination_country": "Italy",
+    "number": 391214.8489052751
+  },
+  {
+    "origin_country": "Senegal",
+    "destination_country": "Spain",
+    "number": 391214.8489052751
+  },
+  {
+    "origin_country": "Serbia",
+    "destination_country": "France",
+    "number": 399255.4550140521
+  },
+  {
+    "origin_country": "Serbia",
+    "destination_country": "Switzerland",
+    "number": 399255.4550140521
+  },
+  {
+    "origin_country": "Serbia",
+    "destination_country": "United States",
+    "number": 399255.4550140521
+  },
+  {
+    "origin_country": "Slovakia",
+    "destination_country": "Slovakia",
+    "number": 4764956.310368702
+  },
+  {
+    "origin_country": "Slovakia",
+    "destination_country": "Czech Republic",
+    "number": 4764956.310368702
+  },
+  {
+    "origin_country": "Slovakia",
+    "destination_country": "Hungary",
+    "number": 4764956.310368702
+  },
+  {
+    "origin_country": "Somalia",
+    "destination_country": "United States",
+    "number": 292036.8839020729
+  },
+  {
+    "origin_country": "Somalia",
+    "destination_country": "Sweden",
+    "number": 292036.8839020729
+  },
+  {
+    "origin_country": "Somalia",
+    "destination_country": "Canada",
+    "number": 292036.8839020729
+  },
+  {
+    "origin_country": "South Africa",
+    "destination_country": "Australia",
+    "number": 461831.16990064783
+  },
+  {
+    "origin_country": "South Africa",
+    "destination_country": "United States",
+    "number": 461831.16990064783
+  },
+  {
+    "origin_country": "South Africa",
+    "destination_country": "New Zealand",
+    "number": 461831.16990064783
+  },
+  {
+    "origin_country": "Spain",
+    "destination_country": "Spain",
+    "number": 34424539.39337349
+  },
+  {
+    "origin_country": "Spain",
+    "destination_country": "France",
+    "number": 34424539.39337349
+  },
+  {
+    "origin_country": "Spain",
+    "destination_country": "United States",
+    "number": 34424539.39337349
+  },
+  {
+    "origin_country": "Sri Lanka",
+    "destination_country": "Canada",
+    "number": 526804.3738761358
+  },
+  {
+    "origin_country": "Sri Lanka",
+    "destination_country": "Australia",
+    "number": 526804.3738761358
+  },
+  {
+    "origin_country": "Sri Lanka",
+    "destination_country": "Italy",
+    "number": 526804.3738761358
+  },
+  {
+    "origin_country": "Sweden",
+    "destination_country": "Sweden",
+    "number": 6853120.402250053
+  },
+  {
+    "origin_country": "Sweden",
+    "destination_country": "United States",
+    "number": 6853120.402250053
+  },
+  {
+    "origin_country": "Sweden",
+    "destination_country": "Norway",
+    "number": 6853120.402250053
+  },
+  {
+    "origin_country": "Switzerland",
+    "destination_country": "Switzerland",
+    "number": 5241696.635566913
+  },
+  {
+    "origin_country": "Switzerland",
+    "destination_country": "Italy",
+    "number": 5241696.635566913
+  },
+  {
+    "origin_country": "Switzerland",
+    "destination_country": "France",
+    "number": 5241696.635566913
+  },
+  {
+    "origin_country": "Syria",
+    "destination_country": "Turkey",
+    "number": 729149.713936244
+  },
+  {
+    "origin_country": "Syria",
+    "destination_country": "Sweden",
+    "number": 729149.713936244
+  },
+  {
+    "origin_country": "Syria",
+    "destination_country": "United States",
+    "number": 729149.713936244
+  },
+  {
+    "origin_country": "Taiwan",
+    "destination_country": "United States",
+    "number": 478602.7800204754
+  },
+  {
+    "origin_country": "Taiwan",
+    "destination_country": "Canada",
+    "number": 478602.7800204754
+  },
+  {
+    "origin_country": "Taiwan",
+    "destination_country": "New Zealand",
+    "number": 478602.7800204754
+  },
+  {
+    "origin_country": "Thailand",
+    "destination_country": "United States",
+    "number": 664281.501711607
+  },
+  {
+    "origin_country": "Thailand",
+    "destination_country": "South Korea",
+    "number": 664281.501711607
+  },
+  {
+    "origin_country": "Thailand",
+    "destination_country": "Australia",
+    "number": 664281.501711607
+  },
+  {
+    "origin_country": "Trinidad and Tobago",
+    "destination_country": "United States",
+    "number": 303413.6583478466
+  },
+  {
+    "origin_country": "Trinidad and Tobago",
+    "destination_country": "Canada",
+    "number": 303413.6583478466
+  },
+  {
+    "origin_country": "Trinidad and Tobago",
+    "destination_country": "Australia",
+    "number": 303413.6583478466
+  },
+  {
+    "origin_country": "Tunisia",
+    "destination_country": "France",
+    "number": 595242.7656727486
+  },
+  {
+    "origin_country": "Tunisia",
+    "destination_country": "Italy",
+    "number": 595242.7656727486
+  },
+  {
+    "origin_country": "Tunisia",
+    "destination_country": "Canada",
+    "number": 595242.7656727486
+  },
+  {
+    "origin_country": "Turkey",
+    "destination_country": "Turkey",
+    "number": 62636553.81480002
+  },
+  {
+    "origin_country": "Turkey",
+    "destination_country": "France",
+    "number": 62636553.81480002
+  },
+  {
+    "origin_country": "Turkey",
+    "destination_country": "United States",
+    "number": 62636553.81480002
+  },
+  {
+    "origin_country": "Ukraine",
+    "destination_country": "Poland",
+    "number": 1670920.8199334154
+  },
+  {
+    "origin_country": "Ukraine",
+    "destination_country": "United States",
+    "number": 1670920.8199334154
+  },
+  {
+    "origin_country": "Ukraine",
+    "destination_country": "Italy",
+    "number": 1670920.8199334154
+  },
+  {
+    "origin_country": "United Kingdom",
+    "destination_country": "Australia",
+    "number": 3363460.885774944
+  },
+  {
+    "origin_country": "United Kingdom",
+    "destination_country": "United States",
+    "number": 3363460.885774944
+  },
+  {
+    "origin_country": "United Kingdom",
+    "destination_country": "Canada",
+    "number": 3363460.885774944
+  },
+  {
+    "origin_country": "United States",
+    "destination_country": "United States",
+    "number": 221744976.46905252
+  },
+  {
+    "origin_country": "United States",
+    "destination_country": "Mexico",
+    "number": 221744976.46905252
+  },
+  {
+    "origin_country": "United States",
+    "destination_country": "Canada",
+    "number": 221744976.46905252
+  },
+  {
+    "origin_country": "Unknown",
+    "destination_country": "Turkey",
+    "number": 2277462.1359558105
+  },
+  {
+    "origin_country": "Unknown",
+    "destination_country": "Colombia",
+    "number": 2277462.1359558105
+  },
+  {
+    "origin_country": "Unknown",
+    "destination_country": "South Korea",
+    "number": 2277462.1359558105
+  },
+  {
+    "origin_country": "Uzbekistan",
+    "destination_country": "Turkey",
+    "number": 265749.1203017235
+  },
+  {
+    "origin_country": "Uzbekistan",
+    "destination_country": "United States",
+    "number": 265749.1203017235
+  },
+  {
+    "origin_country": "Uzbekistan",
+    "destination_country": "South Korea",
+    "number": 265749.1203017235
+  },
+  {
+    "origin_country": "Venezuela",
+    "destination_country": "Colombia",
+    "number": 1581056.4679083494
+  },
+  {
+    "origin_country": "Venezuela",
+    "destination_country": "United States",
+    "number": 1581056.4679083494
+  },
+  {
+    "origin_country": "Venezuela",
+    "destination_country": "Spain",
+    "number": 1581056.4679083494
+  },
+  {
+    "origin_country": "Vietnam",
+    "destination_country": "United States",
+    "number": 2525649.3953926563
+  },
+  {
+    "origin_country": "Vietnam",
+    "destination_country": "Japan",
+    "number": 2525649.3953926563
+  },
+  {
+    "origin_country": "Vietnam",
+    "destination_country": "Australia",
+    "number": 2525649.3953926563
+  }
+]
