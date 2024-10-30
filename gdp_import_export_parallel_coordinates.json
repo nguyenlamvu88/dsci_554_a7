@@ -1,0 +1,242 @@
+[
+  {
+    "country":"Brazil",
+    "year":1995,
+    "imports":53734,
+    "exports":46505,
+    "balance":-7229,
+    "GDP in current prices (millions of US dollars)":781736,
+    "GDP per capita (US dollars)":4781,
+    "GDP real rates of growth (percent)":4.2
+  },
+  {
+    "country":"Brazil",
+    "year":2005,
+    "imports":73600,
+    "exports":118529,
+    "balance":44928,
+    "GDP in current prices (millions of US dollars)":891634,
+    "GDP per capita (US dollars)":4773,
+    "GDP real rates of growth (percent)":3.2
+  },
+  {
+    "country":"Brazil",
+    "year":2010,
+    "imports":181768,
+    "exports":201915,
+    "balance":20147,
+    "GDP in current prices (millions of US dollars)":2208838,
+    "GDP per capita (US dollars)":11249,
+    "GDP real rates of growth (percent)":7.5
+  },
+  {
+    "country":"Brazil",
+    "year":2015,
+    "imports":171446,
+    "exports":191127,
+    "balance":19681,
+    "GDP in current prices (millions of US dollars)":1802212,
+    "GDP per capita (US dollars)":8783,
+    "GDP real rates of growth (percent)":-3.5
+  },
+  {
+    "country":"Brazil",
+    "year":2020,
+    "imports":166336,
+    "exports":209180,
+    "balance":42844,
+    "GDP in current prices (millions of US dollars)":1448566,
+    "GDP per capita (US dollars)":6795,
+    "GDP real rates of growth (percent)":-3.9
+  },
+  {
+    "country":"Brazil",
+    "year":2021,
+    "imports":234690,
+    "exports":280815,
+    "balance":46000,
+    "GDP in current prices (millions of US dollars)":1608981,
+    "GDP per capita (US dollars)":7507,
+    "GDP real rates of growth (percent)":4.6
+  },
+  {
+    "country":"China",
+    "year":1995,
+    "imports":131353,
+    "exports":148616,
+    "balance":17263,
+    "GDP in current prices (millions of US dollars)":734485,
+    "GDP per capita (US dollars)":603,
+    "GDP real rates of growth (percent)":11.0
+  },
+  {
+    "country":"China",
+    "year":2005,
+    "imports":659953,
+    "exports":761953,
+    "balance":102001,
+    "GDP in current prices (millions of US dollars)":2285962,
+    "GDP per capita (US dollars)":1752,
+    "GDP real rates of growth (percent)":11.4
+  },
+  {
+    "country":"China",
+    "year":2010,
+    "imports":1396002,
+    "exports":1577764,
+    "balance":181762,
+    "GDP in current prices (millions of US dollars)":6087188,
+    "GDP per capita (US dollars)":4515,
+    "GDP real rates of growth (percent)":10.6
+  },
+  {
+    "country":"China",
+    "year":2015,
+    "imports":1679564,
+    "exports":2273468,
+    "balance":593904,
+    "GDP in current prices (millions of US dollars)":11061570,
+    "GDP per capita (US dollars)":7937,
+    "GDP real rates of growth (percent)":7.0
+  },
+  {
+    "country":"China",
+    "year":2020,
+    "imports":2069568,
+    "exports":2589098,
+    "balance":519530,
+    "GDP in current prices (millions of US dollars)":14687744,
+    "GDP per capita (US dollars)":10308,
+    "GDP real rates of growth (percent)":2.2
+  },
+  {
+    "country":"China",
+    "year":2021,
+    "imports":2715998,
+    "exports":3593601,
+    "balance":877604,
+    "GDP in current prices (millions of US dollars)":17734131,
+    "GDP per capita (US dollars)":12437,
+    "GDP real rates of growth (percent)":8.1
+  },
+  {
+    "country":"Germany",
+    "year":1995,
+    "imports":464145,
+    "exports":518224,
+    "balance":54079,
+    "GDP in current prices (millions of US dollars)":2585619,
+    "GDP per capita (US dollars)":31873,
+    "GDP real rates of growth (percent)":1.5
+  },
+  {
+    "country":"Germany",
+    "year":2005,
+    "imports":779819,
+    "exports":977132,
+    "balance":197313,
+    "GDP in current prices (millions of US dollars)":2845732,
+    "GDP per capita (US dollars)":35041,
+    "GDP real rates of growth (percent)":0.7
+  },
+  {
+    "country":"Germany",
+    "year":2010,
+    "imports":1060672,
+    "exports":1267743,
+    "balance":207071,
+    "GDP in current prices (millions of US dollars)":3396354,
+    "GDP per capita (US dollars)":41763,
+    "GDP real rates of growth (percent)":4.2
+  },
+  {
+    "country":"Germany",
+    "year":2015,
+    "imports":1057536,
+    "exports":1328500,
+    "balance":270964,
+    "GDP in current prices (millions of US dollars)":3356236,
+    "GDP per capita (US dollars)":40893,
+    "GDP real rates of growth (percent)":1.5
+  },
+  {
+    "country":"Germany",
+    "year":2020,
+    "imports":1173167,
+    "exports":1385852,
+    "balance":212685,
+    "GDP in current prices (millions of US dollars)":3889669,
+    "GDP per capita (US dollars)":46678,
+    "GDP real rates of growth (percent)":-3.7
+  },
+  {
+    "country":"Germany",
+    "year":2021,
+    "imports":1424675,
+    "exports":1635600,
+    "balance":210925,
+    "GDP in current prices (millions of US dollars)":4259935,
+    "GDP per capita (US dollars)":51073,
+    "GDP real rates of growth (percent)":2.6
+  },
+  {
+    "country":"India",
+    "year":1995,
+    "imports":36592,
+    "exports":31699,
+    "balance":-4893,
+    "GDP in current prices (millions of US dollars)":371783,
+    "GDP per capita (US dollars)":386,
+    "GDP real rates of growth (percent)":7.6
+  },
+  {
+    "country":"India",
+    "year":2005,
+    "imports":140862,
+    "exports":100353,
+    "balance":-40509,
+    "GDP in current prices (millions of US dollars)":823612,
+    "GDP per capita (US dollars)":713,
+    "GDP real rates of growth (percent)":7.9
+  },
+  {
+    "country":"India",
+    "year":2010,
+    "imports":350029,
+    "exports":220408,
+    "balance":-129621,
+    "GDP in current prices (millions of US dollars)":1669620,
+    "GDP per capita (US dollars)":1346,
+    "GDP real rates of growth (percent)":8.5
+  },
+  {
+    "country":"India",
+    "year":2015,
+    "imports":390745,
+    "exports":264381,
+    "balance":-126364,
+    "GDP in current prices (millions of US dollars)":2146759,
+    "GDP per capita (US dollars)":1623,
+    "GDP real rates of growth (percent)":8.0
+  },
+  {
+    "country":"India",
+    "year":2020,
+    "imports":367980,
+    "exports":275489,
+    "balance":-92491,
+    "GDP in current prices (millions of US dollars)":2672204,
+    "GDP per capita (US dollars)":1914,
+    "GDP real rates of growth (percent)":-6.6
+  },
+  {
+    "country":"India",
+    "year":2021,
+    "imports":570402,
+    "exports":394814,
+    "balance":-175588,
+    "GDP in current prices (millions of US dollars)":3201471,
+    "GDP per capita (US dollars)":2274,
+    "GDP real rates of growth (percent)":8.7
+  }
+]
