@@ -1,249 +1,269 @@
 
-# Interactive Data Dashboard
+# DSCI 554 Assignment 7: Countries Dashboard with Color Scales, Maps, and Layouts
+Vu Nguyen
+USCID: 2120314402
 
-An interactive data dashboard built with React and D3.js to visualize various datasets across multiple visual components. This project allows users to explore data through maps and charts, displaying information on demographics, health expenditure, GDP, population, migration, and more.
+An interactive data dashboard built with **React** and **D3.js** to visualize various datasets across multiple visual components. This project allows users to explore data through maps and charts, displaying information on demographics, health expenditure, GDP, population, migration, trade, and more. The datasets are meticulously sourced, cleaned, and tailored with manual and ChatGPT assistance for consistency and visualization readiness. All datasets are uploaded to GitHub and accessed via URLs, enabling seamless integration and dynamic, interactive visualizations.
 
 ## Table of Contents
-- [Features](#features)
-- [Design Methodology](#design-methodology)
+
 - [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Data Sources](#data-sources)
+- [Data Overview](#data-overview)
+  - [1. Population Data](#1-population-data)
+  - [2. Health Expenditure Data](#2-health-expenditure-data)
+  - [3. Current GDP Data](#3-current-gdp-data)
+  - [4. Demographic Data](#4-demographic-data)
+  - [5. Migration Data](#5-migration-data)
+  - [6. Trade Data](#6-trade-data)
+- [Dependencies and Configuration Files](#dependencies-and-configuration-files)
 - [Usage](#usage)
+- [Design Methodology for Maps, Charts, Graphs, and Visualizations](#design-methodology-for-maps-charts-graphs-and-visualizations)
 - [Styling & Customization](#styling--customization)
-- [Future Improvements](#future-improvements)
+- [Data Sources](#data-sources)
+- [AI Assistance](#ai-assistance)
 
-## Features
+## Project Structure
 
-### Multiple Maps:
-- **Dot Map**: Displays population and demographic data of top cities in each selected country.
-- **Proportional Symbol Map**: Visualizes GDP, population, and trade data using varying symbol sizes and colors.
-- **Choropleth Map**: Shows health expenditure per country, with intensity representing expenditure levels.
+The project follows a modular structure for maintainability and scalability:
 
-### Diverse Charts and Graphs:
-- **Treemap**: Shows top populous cities by country.
-- **Sunburst & Zoomable Circle Packing Charts**: Represent hierarchical demographic data by country, year, and gender.
-- **Pie, Stacked Bar & Difference Charts**: Display comparative data on health expenditure, population distribution, and migration.
-- **Force-Directed Graph**: Illustrates migration data with connections between top countries.
+```bash
+A6-NGUYENLAMVU88/
+├── .vscode/                     # Visual Studio Code configuration files
+├── node_modules/                # Project dependencies
+├── public/                      # Public folder for static assets
+│   └── data/
+│       ├── processed/           # Processed data files for visualization
+│       │   ├── choroplethmap_health_expenditure.csv
+│       │   ├── dot_map_populations_cities.csv
+│       │   ├── gdp.csv
+│       │   ├── hierarchical_demographic_zoomable.json
+│       │   ├── import_export_cleaned.csv
+│       │   └── merged_selected_countries_population_gdp.csv
+│       └── raw/                 # Raw data files before processing
+│           ├── API_NY.GDP.MKTP.CD_DS2_en_csv_v2_9865.csv
+│           ├── API_SH.XPD.CHEX.GD.ZS_DS2_en_csv_v2_10468.csv
+│           ├── SYB66_123_202310_Total Imports Exports and Balance of Trade.csv
+│           ├── t1_TOP100.xlsx
+│           ├── worldcities.csv
+│           └── WPP2024_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT.xlsx
+├── src/
+│   ├── components/
+│   │   ├── layouts/             # Chart components for various layouts
+│   │   │   ├── ChordDiagram.js
+│   │   │   ├── DifferenceChart.js
+│   │   │   ├── ForceDirectedGraph.js
+│   │   │   ├── MigrationMap.js
+│   │   │   ├── MultiLineChart.js
+│   │   │   ├── ParallelCoordinatesChart.js
+│   │   │   ├── PieChart.js
+│   │   │   ├── StackedBarChart.js
+│   │   │   ├── Sunburst.js
+│   │   │   ├── Treemap.js
+│   │   │   └── ZoomableCirclePacking.js
+│   │   ├── maps/                # Map components
+│   │   │   ├── ChoroplethMap.js
+│   │   │   ├── DotMap.js
+│   │   │   └── ProportionalSymbolMap.js
+│   │   ├── Tooltip.css          # Tooltip styling for components
+│   │   ├── Tooltip.js           # Tooltip component
+│   │   ├── Dashboard.js         # Main dashboard component
+│   │   └── Navbar.js            # Navigation bar component
+│   ├── index.css                # Global styles
+│   └── index.js                 # Entry point
+├── .babelrc                     # Babel configuration
+├── package-lock.json            # Lockfile for npm dependencies
+├── package.json                 # Project configuration and dependencies
+└── webpack.config.js            # Webpack configuration
+```
 
-### Interactive Elements:
-- Tooltips on hover for detailed information.
-- Zoom & Pan functionality on maps.
-- Year and country selectors to dynamically adjust data on maps and charts.
+## Data Overview
 
-### Responsive & Modular Design:
-- Adapts to screen sizes, with sidebar navigation and content panels.
-- Dark theme with animations and transitions for a polished experience.
-- 
-## Design Methodology
+Each dataset was sourced, cleaned, and tailored with manual and ChatGPT assistance for consistency and visualization readiness, creating a structured view of global trends in population, health expenditure, GDP, demographics, migration, and trade. All datasets are uploaded to GitHub and accessed via URLs for seamless integration.
 
-The choice of maps, charts, and graphs in the Interactive Data Dashboard is grounded in ease of interpretability, effectiveness in communicating complex data relationships, and alignment with specific data types. Each visualization was selected to make the data exploration process intuitive and to enable users to gain insights quickly.
+### 1. Population Data
+- **Source**: [Simple Maps World Cities Database](https://simplemaps.com/data/world-cities)
+- **Original File**: `worldcities.csv`
+- **Processing**: Cleaned and processed with ChatGPT and manual adjustments, saved as `dot_map_populations_cities.csv` and uploaded to GitHub.
+- **Final Use**:
+  - **Dot Map**: Displays the top 10 populous cities in Brazil, China, Germany, India, and the United States.
+  - **Treemap**: Compares population distributions among these cities, highlighting spatial differences.
+  - **Pie Chart**: Visualizes the total population differences among the five countries.
 
-### Maps
+### 2. Health Expenditure Data
+- **Source**: [World Bank](https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS)
+- **Original File**: `API_NY.GDP.MKTP.CD_DS2_en_csv_v2_9865.csv`
+- **Processing**: Cleaned and processed with ChatGPT, saved as `choroplethmap_health_expenditure.csv`, and uploaded to GitHub.
+- **Final Use**:
+  - **Choropleth Map**: Shades countries based on health expenditure values, updating according to the selected year.
+  - **Difference Chart**: Allows comparison of health expenditure between two countries.
+  - **Stacked Bar Chart**: Displays health expenditure across countries or years, showing relative spending levels.
 
-1. **Dot Map**
-   - **Purpose**: Visualize population concentrations within selected countries by plotting each city with a dot size proportional to its population.
-   - **Data Suitability**: Location-based data like city population sizes, where each dot is both a precise location and a quantity.
+### 3. Current GDP Data
+- **Source**: [World Bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
+- **Original File**: `API_SH.XPD.CHEX.GD.ZS_DS2_en_csv_v2_10468.csv`
+- **Processing**: Cleaned and processed with ChatGPT and manual adjustments. Data for Brazil, China, Germany, India, and the United States from 2002 to 2023 was saved as `gdp.csv` and uploaded to GitHub. This file was merged with `dot_map_populations_cities.csv` to create `merged_selected_countries_population_gdp.csv`.
+- **Final Use**:
+  - **Proportional Symbol Map**: Combines population and GDP data for comparing population sizes and GDP values across the selected countries.
 
-2. **Proportional Symbol Map**
-   - **Purpose**: Overlay circles on countries based on population, with color intensity reflecting GDP values. This enables dual comparisons of population size and economic output.
-   - **Data Suitability**: Ideal for comparing data across regions of varying sizes, where larger symbols indicate greater magnitude.
+### 4. Demographic Data
+- **Source**: [UN World Population Prospects](https://population.un.org/wpp/Download/Standard/CSV/)
+- **Original File**: `WPP2024_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT.csv`
+- **Processing**: Cleaned and processed with ChatGPT and manual adjustments, saved as `forced_directed_graph_migration_data_with_top_countries.csv`, and transformed into `hierarchical_demographic_zoomable.json` for GitHub.
+- **Final Use**:
+  - **Zoomable Circle Packing & Sunburst Chart**: Allow users to explore nested demographic data, such as age, gender, and mortality breakdowns within populations.
 
-3. **Choropleth Map**
-   - **Purpose**: Display health expenditure across countries, with color intensity representing expenditure levels.
-   - **Data Suitability**: Suitable for regional or national data with continuous values, such as percentages or rates.
+### 5. Migration Data
+- **Source**: [OECD Database on Immigrants](https://www.oecd.org/en/data/datasets/database-on-immigrants-in-oecd-and-non-oecd-countries.html)
+- **Original File**: `t1_TOP100.csv`
+- **Processing**: Cleaned and processed with ChatGPT, saved as `forced_directed_graph_migration_data_with_top_countries.csv` and transformed into `migration_data_parallel.json`. Both files were uploaded to GitHub.
+- **Final Use**:
+  - **Migration Map**: Visualizes migration routes and destinations on a map.
+  - **Parallel Coordinates Chart**: Compares migration flows across multiple countries.
+  - **Chord Diagram**: Shows bilateral migration flows between countries.
+  - **Force Directed Graph**: Highlights top source and destination countries and migration linkages.
 
-### Charts & Graphs
+### 6. Trade Data
+- **Source**: [UN Data – Total Imports, Exports, and Balance of Trade](https://data.un.org)
+- **Original File**: `SYB66_123_202310_Total Imports Exports and Balance of Trade.csv`
+- **Processing**: Cleaned and processed with ChatGPT and manual adjustments, saved as `import_export_cleaned.csv`, and uploaded to GitHub.
+- **Final Use**:
+  - **Multi-Line Chart**: Visualizes trade data for imports, exports, and trade balance over multiple years.
 
-4. **Treemap**
-   - **Purpose**: Show city populations, grouped by country, highlighting how urban areas contribute to national population sizes.
-   - **Data Suitability**: Effective for visualizing part-to-whole relationships within hierarchical data.
+## Data Sources
 
-5. **Sunburst Chart**
-   - **Purpose**: Display population data by country, year, and demographic segments in a hierarchical format.
-   - **Data Suitability**: Best for hierarchical or multi-level data, enabling drill-down exploration.
+All datasets are hosted on GitHub and accessed via raw URLs for seamless integration.
 
-6. **Zoomable Circle Packing**
-   - **Purpose**: Show population data by gender within each country, with zoom functionality.
-   - **Data Suitability**: Effective for nested or grouped data requiring visual hierarchy without complex comparisons.
+- **City Populations and Demographics**:
+  - **URL**: [dot_map_populations_cities.csv](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/dot_map_populations_cities.csv)
+- **Health Expenditure**:
+  - **URL**: [choroplethmap_health_expenditure.csv](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/choroplethmap_health_expenditure.csv)
+- **Population and GDP**:
+  - **URL**: [merged_selected_countries_population_gdp.csv](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/merged_selected_countries_population_gdp.csv)
+- **Hierarchical Demographic Data**:
+  - **URL**: [hierarchical_demographic_zoomable.json](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/hierarchical_demographic_zoomable.json)
+- **Trade Data**:
+  - **URL**: [import_export_cleaned.csv](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/import_export_cleaned.csv)
+- **Migration Data**:
+  - **URL**: [migration_data_parallel.json](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/migration_data_parallel.json)
 
-7. **Pie Chart**
-   - **Purpose**: Break down a country’s total population by its top cities to visualize relative size and distribution.
-   - **Data Suitability**: Ideal for categorical data that represent parts of a whole, with limited categories for comparison clarity.
+## Dependencies and Configuration Files
 
-8. **Stacked Bar Chart**
-   - **Purpose**: Visualize health expenditure across countries over time, comparing category contributions to a total.
-   - **Data Suitability**: Suited for time series data with categories where both individual and cumulative values are important.
+This project relies on several libraries and tools, and it includes configuration files to streamline development:
 
-9. **Difference Chart**
-   - **Purpose**: Highlight expenditure differences between two countries over time.
-   - **Data Suitability**: Best for paired comparisons, showing trends and deviations.
+- **React**: For building user interface components.
+- **D3.js**: For data manipulation and creating dynamic visualizations.
+- **topojson-client**: For handling GeoJSON data.
+- **d3-fetch**: For fetching CSV and JSON data.
 
-10. **Force-Directed Graph**
-    - **Purpose**: Visualize migration connections between countries, with line thickness representing migration volume.
-    - **Data Suitability**: Suitable for network data, emphasizing connection strength between entities.
+### Configuration Files
 
-11. **Multi-Line Chart**
-    - **Purpose**: Display trade data trends, such as imports and exports, over time.
-    - **Data Suitability**: Time series data where trends and changes are essential.
+Here’s how each of these files contributes to running your React app on `localhost:3000`:
 
-12. **Parallel Coordinates Chart**
-    - **Purpose**: Show migration data across metrics like origin, destination, age, and gender.
-    - **Data Suitability**: Effective for multi-dimensional comparisons across multiple variables.
+- **.babelrc**:
+  - Configures Babel to compile modern JavaScript (ES6+ and JSX) into code that browsers can understand.
+  - Specifies Babel presets, like `@babel/preset-env` and `@babel/preset-react`, to transform React and JavaScript features appropriately.
 
-13. **Chord Diagram**
-    - **Purpose**: Visualize migration flows between countries, with arc thickness proportional to migration volume.
-    - **Data Suitability**: Ideal for data with flow or connection strength between entities.
+- **package.json** and **package-lock.json**:
+  - `package.json`: Lists your project’s dependencies, scripts, and metadata. The `"start": "webpack serve --mode development --port 3000"` script tells Webpack to start a local server on port 3000 in development mode.
+  - `package-lock.json`: Locks dependency versions to ensure consistency across installations.
 
-14. **Migration Map**
-    - **Purpose**: Show migration flows between countries with directional markers.
-    - **Data Suitability**: Geographic data focused on movement or flow between locations.
+- **index.html**:
+  - Acts as the main HTML file and entry point for your application. HtmlWebpackPlugin uses this file as a template to inject your JavaScript bundle (created by Webpack) into the final HTML file served to the browser.
 
-- **City Populations and Demographics**: Used in Dot Map and Pie Chart for city-wise population visualizations.
-  - Source: [City Data CSV](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/dot_map_populations_cities.csv)
+- **webpack.config.js**:
+  - Configures Webpack to bundle your code. It includes loaders for handling files (like `babel-loader` for JSX) and plugins (like `HtmlWebpackPlugin`).
+  - Specifies where to find `index.html` and tells Webpack how to bundle and serve files on the configured port (3000).
 
-- **Health Expenditure**: Data for Choropleth Map and Stacked Bar Chart.
-  - Source: [Health Expenditure CSV](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/choroplethmap_health_expenditure.csv)
+### Installation
 
-- **Population and GDP**: For Proportional Symbol Map displaying GDP and population.
-  - Source: [Population and GDP CSV](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/merged_selected_countries_population_gdp.csv)
+To install the necessary dependencies, run:
 
-- **Hierarchical Demographic Data**: For Sunburst and Zoomable Circle Packing visualizations.
-  - Source: [Hierarchical Data JSON](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/hierarchical_demographic_zoomable.json)
-
-- **Trade Data**: For Multi-Line and Difference Charts.
-  - Source: [Trade Data CSV](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/import_export_cleaned.csv)
-
-- **Migration Data**: For Migration Map, Parallel Coordinates, and Chord Diagram.
-  - Source: [Migration Data JSON](https://raw.githubusercontent.com/nguyenlamvu88/dsci_554_a7/main/migration_data_parallel.json)
-
----
+```bash
+npm install
+```
 
 ## Usage
-To start using the project:
 
-1. Clone the repository:
+To start using the project, follow these steps:
+
+1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/yourusername/interactive-data-dashboard.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the Project Directory**:
 
    ```bash
    cd interactive-data-dashboard
    ```
 
-3. Install dependencies:
+3. **Install Dependencies**:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+4. **Start the Development Server**:
 
    ```bash
    npm start
    ```
 
-5. Open `http://localhost:3000` in your browser to view the dashboard.
+5. **View the Dashboard**:
 
----
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the interactive dashboard.
+
+### Interacting with the Dashboard
+
+- **Navigation**: Use the sidebar to select different maps and charts.
+- **Filters**: Utilize year and country selectors to dynamically adjust data displays.
+- **Tooltips**: Hover over cities, regions, or chart elements to view detailed information.
+- **Zoom & Pan**: Navigate maps with zoom and pan functionality for better exploration.
+
+## Design Methodology for Maps, Charts, Graphs, and Visualizations
+
+### Interactive Maps
+- **Dot Map**: Displays population and demographic data of the top 10 populous cities in Brazil, China, Germany, India, and the United States.
+- **Proportional Symbol Map**: Visualizes GDP, population, and trade data using varying symbol sizes and colors.
+- **Choropleth Map**: Shades countries based on health expenditure values, updating according to the selected year.
+
+### Diverse Charts and Graphs
+- **Treemap**: Compares population distributions among top cities in selected countries, highlighting spatial differences.
+- **Sunburst & Zoomable Circle Packing Charts**: Represent hierarchical demographic data by country, year, and gender.
+- **Pie, Stacked Bar & Difference Charts**: Display comparative data on health expenditure, population distribution, and migration.
+- **Force-Directed Graph**: Illustrates migration data with connections between top source and destination countries.
+- **Chord Diagram**: Shows bilateral migration flows between countries.
+- **Multi-Line Chart**: Visualizes trade data for imports, exports, and trade balance over multiple years.
+- **Parallel Coordinates Chart**: Compares migration flows across multiple countries.
 
 ## Styling & Customization
-- **Global Styles**: Found in `index.css`, featuring a dark theme with complementary colors.
-- **Animations and Transitions**: Button hovers, zoom effects, and transitions are styled for a smoother experience.
-- **Tooltip Styling**: Tooltips have a background color and shadow for readability. Customize tooltip styles in `Tooltip.css`.
 
----
+- **Global Styles**: Located in `styles/index.css`, featuring a dark theme with complementary colors.
+- **Component Styles**: Specific styles for components can be found in their respective CSS files (e.g., `Tooltip.css`).
+- **Animations and Transitions**: Implemented for button hovers, zoom effects, and transitions to enhance user experience.
+- **Tooltips**: Styled with a background color and shadow for readability; customize in `styles/Tooltip.css`.
 
-## Future Improvements
-- **Enhanced Interactivity**: Add filtering options for countries or data points.
-- **Data Upload Feature**: Allow users to upload custom datasets for dynamic chart generation.
-- **Export Options**: Enable data export (CSV/JSON) and chart snapshots.
-- **Additional Charts**: Integrate more D3 visualizations, such as Heatmaps or Radar charts, for expanded analysis.
+## AI Assistance
 
----
+The development of this project was supported by AI assistance, contributing to various components and functionalities. Below are summaries of the AI contributions:
 
-## Setup Instructions
-Follow these steps to set up your project environment from scratch:
+- **AI Assistance 1**: Implemented a Dot Map in React using D3.js, displaying the top 10 most populous cities from selected countries. Addressed challenges related to data loading, circle sizing, color adjustments, and separation of closely positioned cities. Planned integration of Treemap and Pie Chart components for cohesive visualization.
+  
+- **AI Assistance 2**: Developed an interactive data dashboard featuring a DotMap and Treemap for visualizing city populations across different countries. Enhanced tooltips, legends, and styling for a cohesive look and improved user interaction.
 
-1. Clone the repository:
+- **AI Assistance 3**: Created a Zoomable Circle Packing chart using D3.js within a React component, displaying hierarchical data by country, gender, and population. Added year selection, unique color scales, and resolved runtime errors for enhanced visualization clarity.
 
-   ```bash
-   git clone https://github.com/DSCI-554/a6-nguyenlamvu88.git
-   ```
+- **AI Assistance 4**: Integrated a Zoomable Circle Packing visualization with a Proportional Symbol Map, refining data loading, tooltip functionality, and color settings for an interactive visual experience.
 
-2. Navigate into the project directory:
+- **AI Assistance 5**: Integrated the ZoomableCirclePacking component into `Dashboard.js`, processed demographic data into hierarchical format, and ensured seamless interaction and state management across the dashboard.
 
-   ```bash
-   cd a6-nguyenlamvu88
-   ```
+- **AI Assistance 6**: Enhanced the Proportional Symbol Map with dynamic GDP representations, color-coded populations, year sliders, and improved tooltips and legends for better visual appeal and functionality.
 
-3. Install the project dependencies:
+- **AI Assistance 7**: Developed various data visualizations for immigration and trade datasets, including Multi-Line Charts, Parallel Coordinates Charts, Chord Diagrams, and Force Directed Graphs. Enhanced tooltip implementation, data filtering, and visual clarity.
 
-   ```bash
-   npm install
-   ```
+- **AI Assistance 8**: Developed Migration Map and Force Directed Graph components, integrated migration flows with interactive features, addressed runtime errors, and refined code for improved functionality and visual representation.
 
-   This command installs all the necessary packages and dependencies listed in `package.json`.
+- **AI Assistance 9**: Streamlined visualization selection by implementing a centralized `handleMapSelection` function, renamed buttons for clarity, and optimized component display logic for an intuitive user experience.
 
----
-
-### Installation of Required Loaders and Plugins
-To ensure everything works correctly, install the necessary loaders and plugins:
-
-```bash
-npm install webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react html-webpack-plugin style-loader css-loader html-loader gh-pages --save-dev
-```
-
----
-
-### Deployment Steps
-In the terminal, enter these commands:
-
-1. **Running the Development Server**
-
-   To start the development server and view the dashboard locally:
-
-   ```bash
-   npm start
-   ```
-
-   Open your browser and go to `http://localhost:3000` to view the dashboard. This command will start the Webpack dev server, allowing you to make changes to your code and see the updates in real-time.
-
-2. **Build the project**:
-
-   ```bash
-   npm run build
-   ```
-
-3. **Deploy to GitHub Pages**:
-
-   ```bash
-   npm run deploy
-   ```
-
-   After running this command, your dashboard will be deployed to GitHub Pages. Once the deployment is complete, you can access your live dashboard at the following URL:
-
-   `https://nguyenlamvu88.github.io/a6-nguyenlamvu88/`
-
----
-
-### Creating Configuration Files
-The following configuration files are created and posted in the repository:
-
-1. **Create webpack.config.js**
-
-   This file is the configuration for Webpack, defining how your project is bundled. It specifies the entry point, output directory, module rules for processing different file types, and the plugins used to generate the HTML file.
-
-2. **Create .babelrc File**
-
-   This file contains the configuration for Babel, which is used to transpile modern JavaScript and React code into a backward-compatible version. It specifies the presets that Babel should use for transforming the code.
-
-3. **Update package.json**
-
-   This file manages your project's dependencies and scripts. The scripts section should be updated to include commands for starting the development server, building the project for production, and deploying to GitHub Pages.
-
-These files are essential for ensuring that the project builds and runs correctly and are included in the repository for reference.
-
+- **AI Assistance 10**: Developed a Migration Map component from scratch, integrating migration and GeoJSON datasets, normalized country names, implemented interactive tooltips, zoom/pan functionality, legends, and ensured responsive design within the Dashboard component.
