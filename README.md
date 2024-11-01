@@ -18,7 +18,6 @@ An interactive data dashboard built with **React** and **D3.js** to visualize va
 - [Dependencies and Configuration Files](#dependencies-and-configuration-files)
 - [Usage](#usage)
 - [Design Methodology for Maps, Charts, Graphs, and Visualizations](#design-methodology-for-maps-charts-graphs-and-visualizations)
-- [Styling & Customization](#styling--customization)
 - [Data Sources](#data-sources)
 - [AI Assistance](#ai-assistance)
 
@@ -237,12 +236,12 @@ To start using the project, follow these steps:
 - **Multi-Line Chart**: Visualizes trade data for imports, exports, and trade balance over multiple years.
 - **Parallel Coordinates Chart**: Compares migration flows across multiple countries.
 
-## Styling & Customization
+### Styling & Customization
 
-- **Global Styles**: Located in `styles/index.css`, featuring a dark theme with complementary colors.
+- **Global Styles**: Located in `src/index.css`, featuring a dark theme with complementary colors.
 - **Component Styles**: Specific styles for components can be found in their respective CSS files (e.g., `Tooltip.css`).
 - **Animations and Transitions**: Implemented for button hovers, zoom effects, and transitions to enhance user experience.
-- **Tooltips**: Styled with a background color and shadow for readability; customize in `styles/Tooltip.css`.
+- **Tooltips**: Styled with a background color and shadow for readability; customize in `src/maps/Tooltip.css`.
 
 ## AI Assistance
 
