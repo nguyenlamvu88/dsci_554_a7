@@ -157,7 +157,7 @@ This project relies on several libraries and tools, and it includes configuratio
 
 ### Configuration Files
 
-Here’s how each of these files contributes to running your React app on `localhost:3000`:
+Here’s how each of these files contributes to running React app on `localhost:3000`:
 
 - **.babelrc**:
   - Configures Babel to compile modern JavaScript (ES6+ and JSX) into code that browsers can understand.
