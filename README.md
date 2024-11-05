@@ -7,17 +7,6 @@ This assignment performs multi-label classification and clustering on the **Anur
 - **Multi-Label Classification**: Trains individual SVMs for each label using binary relevance, with Gaussian kernels and penalty weights tuned via cross-validation.
 - **K-Means Clustering**: Assesses label distributions within clusters and calculates Hamming distances to evaluate clustering quality.
 
-## Table of Contents
-- Overview
-- Project Structure
-- Datasets
-- Installation
-- Methods
-  - 1. Multi-Class and Multi-Label Classification Using Support Vector Machines
-  - 2. K-Means Clustering on a Multi-Class and Multi-Label Data Set
-- Results
-- License
-
 ## Project Structure
 ```
 .
