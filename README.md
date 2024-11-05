@@ -81,12 +81,52 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboos
 ## Results
 
 ### 1. Multi-Label Classification
-- **Exact Match and Hamming Metrics**: SMOTE improved performance, particularly in imbalanced classes where minority classes gained better representation.
-- **ROC AUC, Precision, and Recall**: Macro-averaged Precision, Recall, and ROC AUC scores were highest with standardized features, which consistently led to performance improvements.
-- **Classifier Chains**: This approach captured inter-label dependencies more effectively, providing valuable insights beyond what binary relevance could achieve on its own.
+- **Exact Match and Hamming Metrics**: SMOTE enhanced prediction accuracy, particularly for minority classes that were better represented.
+- **ROC AUC, Precision, and Recall**: Standardizing features led to the highest macro-averaged scores, consistently improving model performance.
+- **Classifier Chains**: This method effectively captured inter-label dependencies, providing insights beyond traditional binary relevance.
 
 ### 2. K-Means Clustering
-- **Optimal Clustering**: Silhouette scores identified the optimal \( k \) value for clustering. Clustering performance, as measured by Hamming metrics, indicated that the clusters could adequately reflect label structures.
+- **Optimal Clustering**: The Silhouette Score determined the optimal number of clusters as \( k = 5 \).
+
+### 3. Hamming Metrics for Clustering Performance
+   - **Average Hamming Distance**: $0.1968$ suggests that about $19.68\%$ of the predicted labels do not match the true labels.
+   - **Hamming Score**: $0.8032$, indicating $80.32\%$ of label predictions are correct.
+   - **Hamming Loss**: $0.1968$, confirming that $19.68\%$ of label predictions were incorrect.
+
+   These metrics indicate that while the clustering model reflects some structure in the data, there is moderate room for improvement in label accuracy.
+
+### 4. Multi-Label Model Comparison Summary
+
+| Classifier                   | Family Metrics                                    | Genus Metrics                                   | Species Metrics                                  | Overall Multi-Label Metrics                              |
+|------------------------------|---------------------------------------------------|-------------------------------------------------|--------------------------------------------------|----------------------------------------------------------|
+| **1. SVM (RBF Kernel)**      | **Precision** = $0.9941$, **Recall** = $0.9694$, **ROC AUC** = $0.9970$ | **Precision** = $0.9822$, **Recall** = $0.9434$, **ROC AUC** = $0.9872$ | **Precision** = $0.9750$, **Recall** = $0.9479$, **ROC AUC** = $0.9885$ | **Exact Match Score** = $0.9838$, **Hamming Loss** = $0.0117$ (Hamming Score = $0.9883$) |
+| **2. L1-penalized SVMs**     | **Precision** = $0.7685$, **Recall** = $0.9039$, **ROC AUC** = $0.9774$ | **Precision** = $0.8365$, **Recall** = $0.8966$, **ROC AUC** = $0.9869$ | **Precision** = $0.9011$, **Recall** = $0.9105$, **ROC AUC** = $0.9898$ | **Exact Match Score** = $0.9064$, **Hamming Loss** = $0.0594$ (Hamming Score = $0.9406$) |
+| **3. SVM with SMOTE**        | **Precision** = $0.7441$, **Recall** = $0.9159$, **ROC AUC** = $0.9687$ | **Precision** = $0.7356$, **Recall** = $0.9163$, **ROC AUC** = $0.9792$ | **Precision** = $0.8742$, **Recall** = $0.9199$, **ROC AUC** = $0.9859$ | **Exact Match Score** = $0.8485$, **Hamming Loss** = $0.0790$ (Hamming Score = $0.9210$) |
+| **4. Classifier Chain**      | Best Parameters: $C=1.0$                          | **Macro Precision** = $0.83$, **Macro Recall** = $0.77$, **Macro F1-Score** = $0.80$ | **Micro Precision** = $0.95$, **Micro Recall** = $0.94$, **Micro F1-Score** = $0.95$ | **Exact Match Score** = $0.8953$, **Hamming Loss** = $0.0302$, **ROC AUC (Macro)** = $0.9588$ |
+
+### Summary of Findings
+
+- **SVM (RBF Kernel)** exhibits strong performance across all labels, with optimal parameters of ($C=35.938$, $\gamma=0.1$) and minimal errors, particularly effective for hierarchical and taxonomic tasks.
+
+- **L1-penalized SVMs** show robust label-specific performance with varying optimal $C$ values ($C=215.44$ for Family, $C=46.42$ for Genus, $C=10.0$ for Species), achieving high accuracy but minor misclassifications, particularly in the "Family" label.
+
+- **SVM with SMOTE** enhances recall by improving label balance in training data, though precision slightly declines due to class complexity. It is suitable for applications focused on balanced representation.
+
+- **Classifier Chain** achieves high accuracy with strong micro-averaged metrics but struggles with lower performance in less frequent classes, indicating potential for further optimization.
+
+--- Majority Labels for Each Cluster ---
+- **Cluster 0**: Majority Family: Leptodactylidae, Majority Genus: Adenomera, Majority Species: AdenomeraHylaedactylus
+- **Cluster 1**: Majority Family: Hylidae, Majority Genus: Hypsiboas, Majority Species: HypsiboasCinerascens
+- **Cluster 2**: Majority Family: Leptodactylidae, Majority Genus: Adenomera, Majority Species: AdenomeraAndre
+- **Cluster 3**: Majority Family: Leptodactylidae, Majority Genus: Adenomera, Majority Species: AdenomeraAndre
+- **Cluster 4**: Majority Family: Hylidae, Majority Genus: Hypsiboas, Majority Species: HypsiboasCordobae
+
+--- Hamming Metrics ---
+- **Average Hamming Distance**: $0.1968$
+- **Hamming Score**: $0.8032$
+- **Hamming Loss**: $0.1968$
+
+These metrics indicate that, on average, about $19.68\%$ of the label predictions are incorrect, with a score of $80.32\%$ correct predictions. This suggests that the clustering model adequately reflects some of the data's structure but has room for improvement in label accuracy.
 
 ## Conclusion
 - **Classification Models**: Binary relevance SVM models with Gaussian kernels effectively handled multi-label classification, with performance gains observed through SMOTE and standardization.
