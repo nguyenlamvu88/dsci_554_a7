@@ -8,6 +8,7 @@ This assignment performs multi-label classification and clustering on the **Anur
 - **K-Means Clustering**: Assesses label distributions within clusters and calculates Hamming distances to evaluate clustering quality.
 
 ## Project Structure
+```
 .
 ├── data/                          
 │   └── Frogs_MFCCs.csv  
@@ -15,7 +16,6 @@ This assignment performs multi-label classification and clustering on the **Anur
 │   └── Nguyen_Vu_HW7.ipynb  
 ├── requirements.txt               
 └── README.md
-
 
 ## Datasets
 - **Anuran Calls Dataset**: Available on the UCI Machine Learning Repository
