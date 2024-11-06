@@ -176,9 +176,9 @@ This project is licensed under the MIT License.
 
 3. **K-means Optimization and Proof of Equation (12.18)**:
    - **Objective Function**: The K-means objective function (12.17) is:
-     $$
+     $
      \sum_{k=1}^K \sum_{i \in C_k} \sum_{j=1}^p (x_{ij} - \bar{x}_{kj})^2
-     $$
+     $
    - **Proof of Equation (12.18)**: We showed that the within-cluster sum of squared pairwise distances can be expressed as:
      $$
      \frac{1}{|C_k|} \sum_{i,i' \in C_k} \sum_{j=1}^p (x_{ij} - x_{i'j})^2 = 2 \sum_{i \in C_k} \sum_{j=1}^p (x_{ij} - \bar{x}_{kj})^2
