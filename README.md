@@ -8,34 +8,33 @@ This assignment performs multi-label classification and clustering on the **Anur
 - **K-Means Clustering**: Assesses label distributions within clusters and calculates Hamming distances to evaluate clustering quality.
 
 ## Project Structure
-```
 .
 ├── data/                          
 │   └── Frogs_MFCCs.csv  
 ├── notebook/
 │   └── Nguyen_Vu_HW7.ipynb  
 ├── requirements.txt               
-└── README.md                      
-```
+└── README.md
+
 
 ## Datasets
 - **Anuran Calls Dataset**: Available on the UCI Machine Learning Repository
 
 ## Installation
 Clone the repository:
-```bash
+bash
 git clone https://github.com/nguyenlamvu88/homework-7-nguyenlamvu88
-```
+
 
 Install the required packages:
-```bash
+bash
 pip install -r requirements.txt
-```
+
 
 Alternatively, install packages directly:
-```bash
+bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost tqdm
-```
+
 
 ## Methods
 
@@ -192,5 +191,3 @@ This conversation covered the impact of scaling in clustering, principal compone
      - C_k: a cluster,
      - x_{ij}: the j-th feature of observation i,
      - x̄_{kj}: the mean of feature j in C_k, defined as x̄_{kj} = (1 / |C_k|) sum_{i in C_k} x_{ij}.
-
-
