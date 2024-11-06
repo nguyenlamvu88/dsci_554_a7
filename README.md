@@ -22,19 +22,19 @@ This assignment performs multi-label classification and clustering on the **Anur
 
 ## Installation
 Clone the repository:
-bash
+```
 git clone https://github.com/nguyenlamvu88/homework-7-nguyenlamvu88
-
+```
 
 Install the required packages:
-bash
+```
 pip install -r requirements.txt
-
+```
 
 Alternatively, install packages directly:
-bash
+```
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost tqdm
-
+```
 
 ## Methods
 
