@@ -139,3 +139,61 @@ These metrics indicate that, on average, about $19.68\%$ of the label prediction
 
 ## License
 This project is licensed under the MIT License.
+
+#### [AI Assistance 1](https://chatgpt.com/c/67279a00-4460-8001-8944-ca86b84014cb)
+
+##### Code Checks and Updates
+- **Code Review**: Verified code against requirements for multi-label classification and clustering on the Anuran Calls dataset.
+- **Evaluation Metrics**: Added metrics for multi-label classification, including **confusion matrices**, **precision**, **recall**, **ROC**, and **AUC**.
+- **L1-Penalized SVM**: Implemented **GridSearchCV** with **10-fold cross-validation** to optimize the penalty weight for L1-penalized SVM with a linear kernel.
+
+##### Classifier Chain and Class Imbalance Handling
+- **Classifier Chain**: Applied the Classifier Chain method as an alternative to binary relevance for species, genus, and family labels.
+- **SMOTE for Class Imbalance**: Used **SMOTE** (Synthetic Minority Over-sampling Technique) to handle class imbalance and evaluated its effect on performance.
+
+##### K-Means Clustering and Monte Carlo Simulation
+- **Optimal Clustering (k)**: Selected optimal **k** using silhouette scores for clustering analysis on the multi-label dataset.
+- **Monte Carlo Simulation**: Conducted **50 trials** to calculate **Hamming distances** between true labels and cluster-assigned labels, recording average and standard deviation.
+
+##### README Documentation
+- **Project Documentation**: Compiled a README file with:
+  - **Overview**, **methods**, and **results** for both multi-label classification and K-means clustering.
+  - Insights on **SMOTE** benefits for imbalanced data, feature scaling impact, and clustering quality using Hamming distance metrics.
+  - **Installation** instructions and structured summary for ease of understanding.
+  
+#### [AI Assistance 2](https://chatgpt.com/c/6727bf0d-c394-8001-a5b9-872a3db6939c)
+
+1. **Scaling Effects in K-means Clustering**:
+   - We examined how different scaling methods impact clustering results in K-means based on socks and computer purchases:
+     - **Raw Counts**: Clustering is dominated by the higher quantity item (socks).
+     - **Standardized Counts**: Both products contribute equally after scaling by standard deviation, leading to balanced clusters.
+     - **Dollar Values**: Clustering is dominated by the higher-value item (computers), as their high dollar values outweigh sock purchases.
+   - This analysis highlighted the importance of scaling methods in similarity measures, as they impact how Euclidean distances reflect variable importance.
+
+2. **Matrix Approximation with Principal Component Analysis (PCA)**:
+   - We explored how principal component score vectors $z_{im}$ (if known) can be used to determine loading vectors $\phi_{jm}$ by performing least squares regressions with each feature in the data matrix as the response.
+   - Each feature $x_j$ is regressed individually onto the principal component scores, allowing us to approximate the data matrix optimally by minimizing residuals, as specified in the optimization problem (12.6).
+
+3. **K-means Optimization and Proof of Equation (12.18)**:
+   - **Objective Function**: The K-means objective function (12.17) is:
+     $$
+     \sum_{k=1}^K \sum_{i \in C_k} \sum_{j=1}^p (x_{ij} - \bar{x}_{kj})^2
+     $$
+   - **Proof of Equation (12.18)**: We showed that the within-cluster sum of squared pairwise distances can be expressed as:
+     $$
+     \frac{1}{|C_k|} \sum_{i,i' \in C_k} \sum_{j=1}^p (x_{ij} - x_{i'j})^2 = 2 \sum_{i \in C_k} \sum_{j=1}^p (x_{ij} - \bar{x}_{kj})^2
+     $$
+     - This result was derived by expanding $(x_{ij} - x_{i'j})^2$ and using the mean $\bar{x}_{kj}$ to simplify, canceling cross terms due to the definition of the mean.
+   - **Decreasing the Objective**: We explained why the K-means algorithm (Algorithm 12.2) decreases the objective function at each step:
+     - **Step 2(a)**: Updating cluster centroids as the mean minimizes the within-cluster sum of squares for each cluster.
+     - **Step 2(b)**: Reassigning points to the nearest centroid further reduces or maintains the objective function.
+   - This iterative process ensures that the K-means objective decreases with each iteration, converging to a local minimum.
+
+4. **Key Notation**:
+   - We summarized key terms for clarity:
+     - $C_k$: a cluster,
+     - $x_{ij}$: the \( j \)-th feature of observation \( i \),
+     - $\bar{x}_{kj}$: the mean of feature \( j \) in \( C_k \), defined as $\bar{x}_{kj} = \frac{1}{|C_k|} \sum_{i \in C_k} x_{ij}$.
+
+This conversation covered the impact of scaling in clustering, principal component analysis for matrix approximation, the convergence of the K-means algorithm, and provided a clear summary of key notation.
+
