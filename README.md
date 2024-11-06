@@ -152,7 +152,7 @@ This project is licensed under the MIT License.
 - **SMOTE for Class Imbalance**: Used **SMOTE** (Synthetic Minority Over-sampling Technique) to handle class imbalance and evaluated its effect on performance.
 
 ##### K-Means Clustering and Monte Carlo Simulation
-- **Optimal Clustering (k)**: Selected optimal **k** using silhouette scores for clustering analysis on the multi-label dataset.
+- **Optimal Clustering (k)**: Selected optimal $k$ using silhouette scores for clustering analysis on the multi-label dataset.
 - **Monte Carlo Simulation**: Conducted **50 trials** to calculate **Hamming distances** between true labels and cluster-assigned labels, recording average and standard deviation.
 
 ##### README Documentation
