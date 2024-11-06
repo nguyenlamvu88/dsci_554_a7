@@ -83,17 +83,17 @@
 
 **Time Complexity:**
 - **Linear SVMs:**
-  - **Time Complexity:** Approximately \( \mathcal{O}(n^2) \) to \( \mathcal{O}(n^3) \), where \( n \) is the number of data points.
-  - **Scalability:** Suitable for datasets with a large number of features (\( p \)) but can be computationally intensive as \( n \) grows.
+  - **Time Complexity:** Approximately $\mathcal{O}(n^2)$ to $\mathcal{O}(n^3)$, where $n$ is the number of data points.
+  - **Scalability:** Suitable for datasets with a large number of features ($p$) but can be computationally intensive as $n$ grows.
 
 - **Kernel SVMs:**
-  - **Time Complexity:** Increases significantly with both \( n \) and \( p \), making them less feasible for very large datasets.
+  - **Time Complexity:** Increases significantly with both $n$ and $p$, making them less feasible for very large datasets.
 
 **Handling Large Datasets:**
 - **Efficiency Enhancements:**
   - **Sequential Minimal Optimization (SMO):** An algorithm to solve the SVM dual problem more efficiently.
   - **Approximate Methods:** Techniques like **stochastic gradient descent** for SVMs can handle larger datasets with reduced computational overhead.
-  - **Dimensionality Reduction:** Applying methods like **PCA** before SVM training to reduce \( p \).
+  - **Dimensionality Reduction:** Applying methods like **PCA** before SVM training to reduce $p$.
 
 **Practical Tips:**
 - **Convergence Issues:**
@@ -105,7 +105,7 @@
   - Opt for **LibSVM** when utilizing non-linear kernels.
 
 **Empirical Observations:**
-- **Support Vector Classifiers** may struggle with large datasets (both \( n \) and \( p \)) due to high computational demands.
+- **Support Vector Classifiers** may struggle with large datasets (both $n$ and $p$) due to high computational demands.
 - **Efficient Implementations:** Libraries like **LibLinear** and **LibSVM** are optimized in C for performance, but even then, scalability remains a challenge for very large datasets.
 
 ### **1.4. VC Dimension**
@@ -117,8 +117,8 @@
 - A model can shatter a set of points if it can correctly classify all possible labelings of those points.
 
 **Examples:**
-- **Linear Classifiers in \( d \)-Dimensional Space:**
-  - **VC Dimension:** \( d + 1 \).
+- **Linear Classifiers in $d$-Dimensional Space:**
+  - **VC Dimension:** $d + 1$.
   - **Explanation:** In 2D, a linear classifier can shatter any set of 3 non-collinear points but cannot shatter 4 points in general position.
 
 - **Kernel SVMs with RBF Kernel:**
@@ -139,11 +139,11 @@
 ### **1.5. Support Vector Regression (SVR)**
 
 **Introduction to SVR:**
-- **Objective:** Extend SVMs to regression tasks by finding a function that deviates from the actual target values by a value no greater than a specified margin \( \epsilon \).
+- **Objective:** Extend SVMs to regression tasks by finding a function that deviates from the actual target values by a value no greater than a specified margin $\epsilon$.
 
 **Key Concepts:**
-- **Epsilon-Insensitive Loss:** A loss function where deviations within \( \pm \epsilon \) are ignored (zero loss), and deviations beyond \( \epsilon \) incur linear loss.
-- **Support Vectors:** Data points outside the \( \epsilon \)-margin that influence the regression line.
+- **Epsilon-Insensitive Loss:** A loss function where deviations within $\pm \epsilon$ are ignored (zero loss), and deviations beyond $\epsilon$ incur linear loss.
+- **Support Vectors:** Data points outside the $\epsilon$-margin that influence the regression line.
 
 **Epsilon-Insensitive Loss Function:**
 \[
@@ -153,17 +153,17 @@ L(y_i, f(x_i)) =
 |y_i - f(x_i)| - \epsilon & \text{otherwise}
 \end{cases}
 \]
-- **Interpretation:** SVR focuses on minimizing the prediction errors that exceed \( \epsilon \), making it robust to minor deviations.
+- **Interpretation:** SVR focuses on minimizing the prediction errors that exceed $\epsilon$, making it robust to minor deviations.
 
 **SVR Algorithm Steps:**
-1. **Define the Margin:** Set \( \epsilon \), the width of the margin around the regression function where no penalty is given for errors.
+1. **Define the Margin:** Set $\epsilon$, the width of the margin around the regression function where no penalty is given for errors.
 2. **Optimization Objective:**
    - **Minimize:**
      \[
      \frac{1}{2} \| \mathbf{\beta} \|_2^2 + C \sum_{i=1}^{N} \xi_i
      \]
-     - \( \xi_i \): Slack variables representing deviations beyond \( \epsilon \).
-     - \( C \): Regularization parameter balancing margin size and error minimization.
+     - $\xi_i$: Slack variables representing deviations beyond $\epsilon$.
+     - $C$: Regularization parameter balancing margin size and error minimization.
 3. **Formulation:**
    - **Subject to:**
      \[
@@ -179,15 +179,15 @@ L(y_i, f(x_i)) =
    - Similar to SVM, solved using optimization techniques, often resulting in a sparse set of support vectors.
 
 **Advantages of SVR:**
-- **Robustness to Noise:** By ignoring minor deviations, SVR is less sensitive to outliers within the \( \epsilon \)-margin.
+- **Robustness to Noise:** By ignoring minor deviations, SVR is less sensitive to outliers within the $\epsilon$-margin.
 - **Flexibility:** Can handle non-linear relationships using kernel functions.
 
 **Disadvantages of SVR:**
 - **Computational Complexity:** Similar to SVMs, SVR can be computationally intensive for large datasets.
-- **Parameter Selection:** Requires careful tuning of \( \epsilon \) and \( C \) to balance margin and error.
+- **Parameter Selection:** Requires careful tuning of $\epsilon$ and $C$ to balance margin and error.
 
 **Support Vectors in SVR:**
-- **Definition:** Data points that lie outside the \( \epsilon \)-margin and influence the regression function.
+- **Definition:** Data points that lie outside the $\epsilon$-margin and influence the regression function.
 - **Role:** Only support vectors determine the final regression line, leading to a sparse model.
 
 **Probability Estimates:**
@@ -225,7 +225,7 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 #### **2.2.1. K-Means Clustering**
 
 **Overview:**
-- **Objective:** Partition data into \( K \) clusters by minimizing the **within-cluster variation** (sum of squared distances between data points and their respective cluster centroids).
+- **Objective:** Partition data into $K$ clusters by minimizing the **within-cluster variation** (sum of squared distances between data points and their respective cluster centroids).
 - **Characteristics:**
   - **Centroid-Based:** Uses the mean of data points as the cluster center.
   - **Hard Clustering:** Each data point is assigned to exactly one cluster.
@@ -233,7 +233,7 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 
 **Algorithm Steps (Lloyd’s Algorithm):**
 1. **Initialization:**
-   - Choose \( K \) initial centroids randomly from the dataset.
+   - Choose $K$ initial centroids randomly from the dataset.
 2. **Assignment Step:**
    - Assign each data point to the nearest centroid based on **Euclidean distance** (or another chosen distance metric).
 3. **Update Step:**
@@ -245,8 +245,8 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 \[
 \text{Within-Cluster Variation} = \sum_{k=1}^{K} \sum_{x_i \in C_k} \| x_i - \mu_k \|^2
 \]
-- **\( C_k \)**: Set of points in cluster \( k \).
-- **\( \mu_k \)**: Centroid of cluster \( k \).
+- **$C_k$:** Set of points in cluster $k$.
+- **$\mu_k$:** Centroid of cluster $k$.
 - **Minimization Goal:** Find cluster assignments and centroids that minimize this total within-cluster variation.
 
 **Computational Complexity:**
@@ -254,8 +254,8 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 - **Solution:** Employ **greedy algorithms** like Lloyd’s Algorithm, which find **local minima** efficiently but do not guarantee a global optimum.
 
 **Practical Considerations:**
-- **Choosing \( K \):**
-  - **Elbow Method:** Plot within-cluster variation against \( K \) and identify the "elbow" point where the rate of decrease sharply changes.
+- **Choosing $K$:**
+  - **Elbow Method:** Plot within-cluster variation against $K$ and identify the "elbow" point where the rate of decrease sharply changes.
   - **Silhouette Score:** Measures how similar a data point is to its own cluster compared to other clusters.
   
 - **Initialization Sensitivity:**
@@ -273,7 +273,7 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 #### **2.2.2. Hierarchical Clustering**
 
 **Overview:**
-- **Objective:** Build a hierarchy of clusters without pre-specifying the number of clusters \( K \).
+- **Objective:** Build a hierarchy of clusters without pre-specifying the number of clusters $K$.
 - **Characteristics:**
   - **Dendrogram:** A tree-like diagram representing the nested grouping of patterns and similarity levels.
   - **Agglomerative vs. Divisive:**
@@ -293,7 +293,7 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
    - Continue merging until all data points are in a single cluster or until a desired number of clusters is achieved.
 
 **Advantages:**
-- **No Need to Predefine \( K \):** Flexibly determines the number of clusters based on the dendrogram.
+- **No Need to Predefine $K$:** Flexibly determines the number of clusters based on the dendrogram.
 - **Interpretability:** The dendrogram provides insights into the data’s hierarchical structure.
 
 **Disadvantages:**
@@ -315,13 +315,13 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 
 **Algorithm Steps:**
 1. **Initialization:**
-   - Select \( K \) random medoids from the dataset.
+   - Select $K$ random medoids from the dataset.
 2. **Assignment Step:**
    - Assign each data point to the nearest medoid based on a chosen distance metric (e.g., Euclidean, Manhattan).
 3. **Update Step:**
    - For each cluster, select the data point that minimizes the average dissimilarity to all other points in the cluster as the new medoid.
 4. **Convergence Check:**
-   - Repeat the **Assignment** and **Update** steps until medoids no longer change or a maximum number of iterations is reached.
+   - Repeat the Assignment and Update steps until medoids no longer change or a maximum number of iterations is reached.
 
 **Advantages:**
 - **Interpretability:** Medoids are actual data points, making the clusters more interpretable.
@@ -350,8 +350,8 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
   - **Manhattan Distance:** Useful when the data dimensions are independent.
   - **Hamming Distance:** Suitable for categorical data.
 
-**Determining the Number of Clusters (\( K \)):**
-- **No One-Size-Fits-All:** The optimal \( K \) varies based on the dataset and the specific application.
+**Determining the Number of Clusters ($K$):**
+- **No One-Size-Fits-All:** The optimal $K$ varies based on the dataset and the specific application.
 - **Methods:**
   - **Elbow Method:** Identify the point where adding another cluster doesn’t significantly reduce within-cluster variation.
   - **Silhouette Score:** Measures how similar a data point is to its own cluster compared to other clusters.
@@ -361,7 +361,7 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 - **Preprocessing:** Encoding categorical variables appropriately (e.g., one-hot encoding) before clustering.
 
 **Dealing with High-Dimensional Data:**
-- **Curse of Dimensionality:** As \( p \) increases, the concept of distance becomes less meaningful.
+- **Curse of Dimensionality:** As $p$ increases, the concept of distance becomes less meaningful.
 - **Dimensionality Reduction:** Apply techniques like **PCA** or **t-SNE** before clustering to reduce dimensionality while preserving essential structures.
 
 ---
@@ -455,7 +455,7 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
 
 - **Challenges:**
   - **Defining Similarity:** Must be domain-specific and relevant to the application.
-  - **Choosing Number of Clusters (\( K \)):** Requires methods like the Elbow Method or Silhouette Score.
+  - **Choosing Number of Clusters ($K$):** Requires methods like the Elbow Method or Silhouette Score.
   - **Handling High-Dimensional Data:** Necessitates dimensionality reduction techniques to preserve meaningful structures.
 
 ---
@@ -493,5 +493,19 @@ As you progress in your studies and applications of machine learning, consider t
 
 If you have any further questions or need clarification on specific topics related to Support Vector Machines, Clustering, or Unsupervised Learning, feel free to ask!
 
+---
 
+### **How to Save These Notes**
 
+1. **Copy the Text:**
+   - Select all the text above by clicking and dragging your cursor from the beginning to the end of the notes.
+
+2. **Paste into a Document Editor:**
+   - Open your preferred document editor (e.g., Microsoft Word, Google Docs, or a Markdown editor).
+   - Paste the copied text into a new document.
+
+3. **Format as Needed:**
+   - Adjust headings, subheadings, bullet points, and other formatting elements to suit your preferences.
+
+4. **Save or Export:**
+   - Save the document in your desired format (e.g., `.docx`, `.pdf`, `.md`).
