@@ -146,35 +146,35 @@
 - **Support Vectors:** Data points outside the $\epsilon$-margin that influence the regression line.
 
 **Epsilon-Insensitive Loss Function:**
-\[
+$$
 L(y_i, f(x_i)) = 
 \begin{cases}
 0 & \text{if } |y_i - f(x_i)| \leq \epsilon \\
 |y_i - f(x_i)| - \epsilon & \text{otherwise}
 \end{cases}
-\]
+$$
 - **Interpretation:** SVR focuses on minimizing the prediction errors that exceed $\epsilon$, making it robust to minor deviations.
 
 **SVR Algorithm Steps:**
 1. **Define the Margin:** Set $\epsilon$, the width of the margin around the regression function where no penalty is given for errors.
 2. **Optimization Objective:**
    - **Minimize:**
-     \[
+     $$
      \frac{1}{2} \| \mathbf{\beta} \|_2^2 + C \sum_{i=1}^{N} \xi_i
-     \]
+     $$
      - $\xi_i$: Slack variables representing deviations beyond $\epsilon$.
      - $C$: Regularization parameter balancing margin size and error minimization.
 3. **Formulation:**
    - **Subject to:**
-     \[
+     $$
      y_i - f(x_i) \leq \epsilon + \xi_i
-     \]
-     \[
+     $$
+     $$
      f(x_i) - y_i \leq \epsilon + \xi_i
-     \]
-     \[
+     $$
+     $$
      \xi_i \geq 0, \quad \forall i
-     \]
+     $$
 4. **Solution:**
    - Similar to SVM, solved using optimization techniques, often resulting in a sparse set of support vectors.
 
@@ -242,9 +242,9 @@ Clustering refers to the task of partitioning a dataset into distinct groups (cl
    - Repeat the **Assignment** and **Update** steps until cluster assignments no longer change or a maximum number of iterations is reached.
 
 **Within-Cluster Variation:**
-\[
+$$
 \text{Within-Cluster Variation} = \sum_{k=1}^{K} \sum_{x_i \in C_k} \| x_i - \mu_k \|^2
-\]
+$$
 - **$C_k$:** Set of points in cluster $k$.
 - **$\mu_k$:** Centroid of cluster $k$.
 - **Minimization Goal:** Find cluster assignments and centroids that minimize this total within-cluster variation.
