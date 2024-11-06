@@ -174,20 +174,34 @@ This project is licensed under the MIT License.
    - We explored how principal component score vectors $z_{im}$ (if known) can be used to determine loading vectors $\phi_{jm}$ by performing least squares regressions with each feature in the data matrix as the response.
    - Each feature $x_j$ is regressed individually onto the principal component scores, allowing us to approximate the data matrix optimally by minimizing residuals, as specified in the optimization problem (12.6).
 
-3. **K-means Optimization and Proof of Equation (12.18)**:
-   - **Objective Function**: The K-means objective function (12.17) is:
-     $
-     \sum_{k=1}^K \sum_{i \in C_k} \sum_{j=1}^p (x_{ij} - \bar{x}_{kj})^2
-     $
-   - **Proof of Equation (12.18)**: We showed that the within-cluster sum of squared pairwise distances can be expressed as:
-     $$
-     \frac{1}{|C_k|} \sum_{i,i' \in C_k} \sum_{j=1}^p (x_{ij} - x_{i'j})^2 = 2 \sum_{i \in C_k} \sum_{j=1}^p (x_{ij} - \bar{x}_{kj})^2
-     $$
-     - This result was derived by expanding $(x_{ij} - x_{i'j})^2$ and using the mean $\bar{x}_{kj}$ to simplify, canceling cross terms due to the definition of the mean.
-   - **Decreasing the Objective**: We explained why the K-means algorithm (Algorithm 12.2) decreases the objective function at each step:
-     - **Step 2(a)**: Updating cluster centroids as the mean minimizes the within-cluster sum of squares for each cluster.
-     - **Step 2(b)**: Reassigning points to the nearest centroid further reduces or maintains the objective function.
-   - This iterative process ensures that the K-means objective decreases with each iteration, converging to a local minimum.
+3. K-means Optimization and Proof of Equation (12.18)
+
+- **Objective Function**: The K-means objective function (12.17) is:
+
+  ```
+  ∑_{k=1}^K ∑_{i ∈ C_k} ∑_{j=1}^p (x_{ij} - x̄_{kj})^2
+  ```
+
+- **Proof of Equation (12.18)**: We showed that the within-cluster sum of squared pairwise distances can be expressed as:
+
+  ```
+  (1 / |C_k|) ∑_{i,i' ∈ C_k} ∑_{j=1}^p (x_{ij} - x_{i'j})^2 = 2 ∑_{i ∈ C_k} ∑_{j=1}^p (x_{ij} - x̄_{kj})^2
+  ```
+
+  This result was derived by expanding `(x_{ij} - x_{i'j})^2` and using the mean `x̄_{kj}` to simplify, canceling cross terms due to the definition of the mean.
+
+- **Decreasing the Objective**: We explained why the K-means algorithm (Algorithm 12.2) decreases the objective function at each step:
+  - **Step 2(a)**: Updating cluster centroids as the mean minimizes the within-cluster sum of squares for each cluster.
+  - **Step 2(b)**: Reassigning points to the nearest centroid further reduces or maintains the objective function.
+
+  This iterative process ensures that the K-means objective decreases with each iteration, converging to a local minimum.
+
+### Key Notation
+
+- $C_k$: a cluster
+- $x_{ij}$: the \( j \)-th feature of observation \( i \)
+- $x̄_{kj}$: the mean of feature \( j \) in \( C_k \), defined as `x̄_{kj} = (1 / |C_k|) ∑_{i ∈ C_k} x_{ij}`
+
 
 4. **Key Notation**:
    - We summarized key terms for clarity:
