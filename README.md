@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 Alternatively, install packages directly:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn tqdm
+pip install pandas numpy matplotlib scipy scikit-learn tqdm
 ```
 
 ## Methods
